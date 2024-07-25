@@ -16,7 +16,7 @@
 
 :root {
   --primary-color: #1f1f1f;
-  --secondary-color: #e1d0a7;
+  --secondary-color: #3b5d50;
   --white: #fff;
   --dark: #000;
 
@@ -49,6 +49,19 @@ h1 {
   line-height: 1.4;
   font-weight: 600;
   color: var(--primary-color);
+}
+@media (min-width: 320px) {
+  h1 {
+    font-size: 3.3rem;
+    word-wrap: break-word;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-size: 6.3rem;
+    word-wrap: break-word;
+  }
 }
 
 h2 {
@@ -1097,6 +1110,11 @@ header {
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  display: flex;
 }
 
 .contact-banner h1,
