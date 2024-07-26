@@ -80,7 +80,7 @@ h3 {
 }
 
 h4 {
-  font-size: 2.5rem;
+  font-size: 2.5rem ;
   font-weight: 600;
   line-height: 1;
   color: var(--primary-color);
@@ -1142,13 +1142,13 @@ header {
 }
 
 @media (min-width: 320px) {
-  h4 {
+  .contact-banner h4 {
     font-size: 2rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  h4 {
+  .contact-banner h4 {
     font-size: 2.8rem;
   }
 }

@@ -2144,4 +2144,41 @@ const products = [
       },
     ],
   },
+
+  {
+    id: 51,
+
+    name: "Wooden Home Tree Mobile and Keys Holder",
+
+    images: ["img/products/51-1.jpg"],
+
+    brand: "Master",
+
+    category: "FullSize",
+
+    sku: "NU-3m-I3S",
+
+    variations: [{ size: "78*42", price: 24750 }],
+
+    description:
+      "Offering perfect alignment and the ideal support, this best mattress in a box comes compressed. It will be smartly shipped for easy setup. It classifies as a great all-arounder mattress, performing exceptionally well in pressure relief and ease of movement. MoltyFoam Best Mattress in a box in Pakistan is shipped vacuum-packed; simply remove it from the box, carefully cut off the protective wrap, and watch as it expands. Sleep well, rejuvenate, and get the rest you deserve with MoltyFoam Best Mattress in a box! ",
+
+    details: [
+      {
+        heading: "About this item",
+        des: [
+          "Dream better with your dream mattress, a Masterpiece from Celeste! Luxuriously crafted with knitted fabric, insulation felt, and topped with Polyfil material to provide modern functionality. It is tufted with an HD foam layer that lets you quickly enter deep sleep and lessens uncomfortable pressure points while sleeping. It is also covered at the bottom with an Anti-Skid fabric which prevents unwanted movements.",
+        ],
+      },
+      {
+        heading: "Specification",
+        des: [
+          "SIZE:78*42",
+          "THCKNESS:6",
+          "Fabric treated with antimiorobial finish it limits dirt and does not allow groth of dust and fungi etc",
+          "the only high pressure in the country the steadiness make t long lasting and more durable",
+        ],
+      },
+    ],
+  },
 ];
