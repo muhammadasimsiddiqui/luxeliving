@@ -493,19 +493,50 @@ header {
 
 /* Hero Section CSS Start */
 
-.home-hero {
+/* .home-hero {
   background-color: var(--secondary-color);
   background-image: url(../../img/banners/couch.png);
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 640px auto;
   margin-bottom: 10rem;
+} */
+
+/* Tablet */
+/* @media (max-width: 768px) {
+  .home-hero {
+    background-size: 440px auto;
+  }
+} */
+
+/* Mobile */
+/* @media (max-width: 425px) {
+  .home-hero {
+    background-image: none;
+  }
+} */
+
+.home-hero {
+  background-color: var(--secondary-color);
+  background-image: url(../../img/banners/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 600px auto;
+  background-position-y: -5%;
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+  .home-hero {
+    background-size: 440px auto;
+    background-position-y: 100%;
+  }
 }
 
 /* Tablet */
 @media (max-width: 768px) {
   .home-hero {
-    background-size: 440px auto;
+    background-position-y: 70%;
   }
 }
 
