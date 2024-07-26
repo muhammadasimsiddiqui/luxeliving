@@ -16,7 +16,7 @@
 
 :root {
   --primary-color: #1f1f1f;
-  --secondary-color: #ADBC9F;
+  --secondary-color: #adbc9f;
   --white: #fff;
   --dark: #000;
 
@@ -236,16 +236,37 @@ section {
 /* Whatsapp Button CSS Start */
 
 .whatsapp-icon {
+  display: flex;
+
   position: fixed;
   bottom: 20px;
   right: 20px;
   background-color: #25d366;
   color: white;
   border-radius: 50%;
-  padding: 4px 16px 6px 16px;
+  padding: 12px 16px 12px 16px;
   font-size: 36px;
   z-index: 1000;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-icon::before {
+  content: "Whatsapp";
+  background-color: #25d366;
+  position: absolute;
+  right: 110%;
+  font-size: 1.8rem;
+  padding: 5px 15px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  transition: 0.3s ease-in-out;
+}
+
+.whatsapp-icon:hover::before {
+  display: flex;
+  
 }
 
 /* Whatsapp Button CSS End */
