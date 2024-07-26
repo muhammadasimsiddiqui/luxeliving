@@ -2191,4 +2191,95 @@ const products = [
       },
     ],
   },
+
+  {
+    id: 52,
+
+    name: "Wooden Home Tree Mobile and Keys Holder",
+
+    images: ["img/products/51-1.jpg"],
+
+    brand: "DolceVitaHome",
+
+    category: "WallArt&Clocks",
+
+    sku: "528645560_PK-2487008872",
+
+    variations: [
+      { size: "small", price: 800 },
+      { size: "large", price: 1600 },
+    ],
+
+    description:
+      "This versatile product is available in two sizes: a small holder with one pocket and a large home tree design for holding mobile phones and keys. Made from MDF wood with a thickness of 2 to 3 mm and equipped with steel hooks, it comes in wood brown (for the single pocket holder) and black and white (for the home tree design). Featuring seven hooks, this stylish and sturdy hook stand is easy to install with a nail or screw. It serves multiple purposes, such as a mobile charging stand, AC remote holder, TV remote holder, wall hanging, wooden wall art, key hanger, and more. Its space-saving design elevates the look of any room, making it perfect for bedrooms, kitchens, closets, lounges, halls, shops, and offices. Keep all your essentials in one place while adding a touch of style to your home.",
+
+    details: [
+      {
+        heading: "About this item",
+        des: [
+          "Multipurpose use for various items.",
+          "Stylish and sturdy design.",
+          "Space-saving design to elevate the look of any room.",
+          "Easy to install with nail or screw.",
+          "Adds style to your home.",
+          "Perfect for bedroom, kitchen, closets, lounge, hall, shop, and office.",
+        ],
+      },
+      {
+        heading: "Specification",
+        des: [
+          "Sizes Available: Small size with 1 pocket.  | Large size home tree design for mobile and keys.",
+          "Thickness: 2 to 3 mm.",
+          "Material: MDF wood.",
+          "Hooks: Steel.",
+          "Color: Wood Brown (Single pocket small holder) & Black and White (Home tree design mobile and keys holder).",
+          "Number of Hooks: 7.",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 53,
+
+    name: "Seashell Jell Glass Candles",
+
+    images: ["img/products/53-5.jpg"],
+    images: ["img/products/53-2.jpg"],
+    images: ["img/products/53-3.jpg"],
+    images: ["img/products/53-4.jpg"],
+    images: ["img/products/53-2.jpg"],
+
+    brand: "UrbanGalleria",
+
+    category: "HolidayDecor",
+
+    sku: "262807463_PK-1480249486",
+
+    variations: [{ size: "3 x 2.8 cm", price: 600 }],
+
+    description:
+      "This pack of 6 eco-friendly seashell jell glass candles is a perfect choice for enhancing the ambiance of any celebration, be it a birthday, wedding, or party. These tea light candles in glass holders are not only beautiful but also make a delightful addition to home decor, especially for intimate dinners with loved ones. Each candle measures 3 cm, making them compact yet impactful in creating a cozy and inviting atmosphere.",
+
+    details: [
+      {
+        heading: "About this item",
+        des: [
+          "Eco-Friendly: Made with environmentally friendly materials.",
+          "Versatile Use: Ideal for birthdays, weddings, parties, and home decoration.",
+          "Beautiful Design: Adds a touch of elegance to dinners with friends, lovers, and relatives.",
+          "Pack Size: Comes in a pack of 6 candles.",
+          "Perfect for Gifting: A great choice for gifting to friends and loved ones on special occasions.",
+        ],
+      },
+      {
+        heading: "Specification",
+        des: [
+          "Product: Pack of 6 Home Decoration Seashell Jell Glass Candles | Tea Light Candles in Glass Holder",
+          "Size: 3 cm per candle",
+          "Material: Eco-friendly",
+        ],
+      },
+    ],
+  },
 ];
