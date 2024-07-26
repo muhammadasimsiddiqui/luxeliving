@@ -2326,4 +2326,127 @@ const products = [
       },
     ],
   },
+
+  {
+    id: 55,
+
+    name: "Rechargeable Aromatherapy Diffuser for Home and Hotel",
+
+    images: [
+      "img/products/55-1.jpg",
+      "img/products/55-2.jpg",
+      "img/products/55-3.jpg",
+      "img/products/55-4.jpg",
+    ],
+
+    brand: "UrbanGalleria",
+
+    category: "HolidayDecor",
+
+    sku: "525854691_PK-2474801198",
+
+    variations: [{ size: "0.5L Below", price: 2500 }],
+
+    description:
+      "The Room Air Freshener Spray Rechargeable Aromatherapy Diffuser is a versatile and efficient device designed to enhance the ambiance of any space with lasting fragrance. This innovative diffuser uses ultrasonic technology to quickly atomize essential oils, providing a fast and enduring aroma. Ideal for various settings such as homes, hotels, offices, and vehicles, it features a sleek, columnar design that can be wall-mounted or placed on a desktop. With a rechargeable battery that offers over 12 hours of basic battery life and the capability to last up to 50 days on a single charge, this diffuser combines functionality with convenience. Its quiet operation, multiple functions including humidification and sleep aid, and compact size make it a perfect addition to any room.",
+
+    details: [
+      {
+        heading: "About this item",
+        des: [
+          "Fragrance lasts longer than traditional water-based essential oils.",
+          "Quick aroma diffusion through ultrasonic atomization.",
+          "Can be wall-mounted or placed on a desktop, saving space.",
+          "Long-lasting battery life; can last up to 50 days on a single charge.",
+          "Suitable for a wide range of scenes including bedrooms, living rooms, offices, bathrooms, and toilets.",
+        ],
+      },
+      {
+        heading: "Specification",
+        des: [
+          "Power Mode: Charging",
+          "Function: Humidification, aromatherapy, timing, sleep aid, atomizer, mute, automatic fragrance machine, fragrance expansion",
+          "Applicable Area: 41㎡ (inclusive) - 60㎡ (inclusive)",
+          "Shape: Columnar",
+          "Noise: Below 36dB",
+          "Timing Function: Less than 2 hours",
+          "Water Tank Capacity: 0.5L and below",
+          "Water Shortage and Power Failure Protection: Yes",
+          "Operation Mode: Button type",
+          "Number of Fog Outlets: 1",
+          "Anti-Burning Protection: Yes",
+          "Scheduled Appointment Function: Yes",
+          "Applicable Scene: Other, vehicle, household, industrial, commercial",
+          "Style: Wall-mounted",
+          "Basic Battery Life: More than 12 hours",
+          "Built-in Battery Capacity: 1200mAh-2000mAh (inclusive)",
+        ],
+      },
+      {
+        heading: "Package Included",
+        des: [
+          "1 x diffuser (or essential oils)",
+          "1 x charging cable",
+          "1 x cotton wick",
+          "1 x instruction manual",
+          "1 x hook up",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 56,
+
+    name: "Festive Decorative Hanging Balls for Home and Party",
+
+    images: [
+      "img/products/56-1.jpg",
+      "img/products/56-2.jpg",
+      "img/products/56-3.jpg",
+      "img/products/56-4.jpg",
+    ],
+
+    brand: "UrbanGalleria",
+
+    category: "HolidayDecor",
+
+    sku: "436822886_PK-2101366375",
+
+    variations: [{ size: "6cm / 2.36Inch", price: 399 }],
+
+    description:
+      "These festive decorative hanging balls are a charming addition to your holiday decor. Perfect for Christmas trees, birthday parties, winter weddings, and other celebrations, these beehive ball decorations add a touch of beauty and surprise to any event. Each ball comes with a hanging rope for easy placement and features a double-sided adhesive tape with silver powder for enhanced durability and aesthetic appeal. Available in red, green, rose pink, and ivory white, these paper decorations measure approximately 6cm.",
+
+    details: [
+      {
+        heading: "About this item",
+        des: [
+          "Beautiful addition to tree decorations and party decor.",
+          "Ideal for Christmas trees, birthday parties, winter weddings, and holiday decorations.",
+          "Easy to hang with a top rope design.",
+          "Double-sided adhesive tape with silver powder for extra beauty and durability.",
+        ],
+      },
+      {
+        heading: "Specification",
+        des: [
+          "Material: Paper",
+          "Size: Approximately 6 cm",
+          "Colors: Red, green, rose pink, ivory white",
+        ],
+      },
+      {
+        heading: "Attention",
+        des: [
+          "Due to manual measurement, please allow a difference of 1-3 cm.",
+          "Images may not reflect the actual color of the item due to differences between monitors.",
+        ],
+      },
+      {
+        heading: "Package Included",
+        des: ["1 x honeycomb ball decoration"],
+      },
+    ],
+  },
 ];
