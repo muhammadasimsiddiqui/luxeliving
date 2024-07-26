@@ -2244,11 +2244,13 @@ const products = [
 
     name: "Seashell Jell Glass Candles",
 
-    images: ["img/products/53-5.jpg"],
-    images: ["img/products/53-2.jpg"],
-    images: ["img/products/53-3.jpg"],
-    images: ["img/products/53-4.jpg"],
-    images: ["img/products/53-2.jpg"],
+    images: [
+      "img/products/53-2.jpg",
+      "img/products/53-3.jpg",
+      "img/products/53-4.jpg",
+      "img/products/53-5.jpg",
+      "img/products/53-1.jpg",
+    ],
 
     brand: "UrbanGalleria",
 
@@ -2278,6 +2280,48 @@ const products = [
           "Product: Pack of 6 Home Decoration Seashell Jell Glass Candles | Tea Light Candles in Glass Holder",
           "Size: 3 cm per candle",
           "Material: Eco-friendly",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 54,
+
+    name: "Artificial Flower Pot",
+
+    images: ["img/products/54-2.jpg", "img/products/54-1.jpg"],
+
+    brand: "UrbanGalleria",
+
+    category: "HolidayDecor",
+
+    sku: "525854691_PK-2474801198",
+
+    variations: [{ size: "7 Inch", price: 500 }],
+
+    description:
+      "The Blue Artificial Flower Pot is a premium quality decor piece that adds a touch of elegance to any space, be it your home, office, or hotel. Made from durable plastic with exquisite finishing, this flower pot enhances the beauty of your decor while being washable for easy maintenance. Standing at 7 inches tall, it offers a stylish and low-maintenance alternative to natural flowers, perfect for those looking to add a splash of color to their interiors.",
+
+    details: [
+      {
+        heading: "About this item",
+        des: [
+          "Made from high-quality plastic.",
+          "Features exquisite finishing that adds elegance to any decor.",
+          "Washable, making it easy to maintain.",
+          "Ideal for home, office, and hotel decoration.",
+          "Premium quality ensures long-lasting beauty.",
+        ],
+      },
+      {
+        heading: "Specification",
+        des: [
+          "Material: Plastic",
+          "Finish: Exquisite finishing",
+          "Height: 7 inches",
+          "Maintenance: Washable",
+          "Quality: Premium quality",
         ],
       },
     ],
