@@ -16,7 +16,7 @@
 
 :root {
   --primary-color: #1f1f1f;
-  --secondary-color: #3b5d50;
+  --secondary-color: #ADBC9F;
   --white: #fff;
   --dark: #000;
 
@@ -53,14 +53,12 @@ h1 {
 @media (min-width: 320px) {
   h1 {
     font-size: 3.3rem;
-    word-wrap: break-word;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   h1 {
     font-size: 6.3rem;
-    word-wrap: break-word;
   }
 }
 
@@ -1120,6 +1118,18 @@ header {
 .contact-banner h1,
 .contact-banner h4 {
   color: var(--white) !important;
+}
+
+@media (min-width: 320px) {
+  h4 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  h4 {
+    font-size: 2.8rem;
+  }
 }
 
 .first_col {

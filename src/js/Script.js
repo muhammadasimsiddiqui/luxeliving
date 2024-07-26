@@ -29,6 +29,9 @@ targetElements.forEach((targetElement) => {
 function shop() {
   window.location.href = "shop.html";
 }
+function about() {
+  window.location.href = "about.html";
+}
 
 // Contact Form
 function formsubmition() {
