@@ -2152,31 +2152,41 @@ const products = [
 
     images: ["img/products/51-1.jpg"],
 
-    brand: "Master",
+    brand: "DolceVitaHome",
 
-    category: "FullSize",
+    category: "HolidayDecor",
 
-    sku: "NU-3m-I3S",
+    sku: "528645560_PK-2487008872",
 
-    variations: [{ size: "78*42", price: 24750 }],
+    variations: [
+      { size: "small", price: 800 },
+      { size: "large", price: 1600 },
+    ],
 
     description:
-      "Offering perfect alignment and the ideal support, this best mattress in a box comes compressed. It will be smartly shipped for easy setup. It classifies as a great all-arounder mattress, performing exceptionally well in pressure relief and ease of movement. MoltyFoam Best Mattress in a box in Pakistan is shipped vacuum-packed; simply remove it from the box, carefully cut off the protective wrap, and watch as it expands. Sleep well, rejuvenate, and get the rest you deserve with MoltyFoam Best Mattress in a box! ",
+      "This versatile product is available in two sizes: a small holder with one pocket and a large home tree design for holding mobile phones and keys. Made from MDF wood with a thickness of 2 to 3 mm and equipped with steel hooks, it comes in wood brown (for the single pocket holder) and black and white (for the home tree design). Featuring seven hooks, this stylish and sturdy hook stand is easy to install with a nail or screw. It serves multiple purposes, such as a mobile charging stand, AC remote holder, TV remote holder, wall hanging, wooden wall art, key hanger, and more. Its space-saving design elevates the look of any room, making it perfect for bedrooms, kitchens, closets, lounges, halls, shops, and offices. Keep all your essentials in one place while adding a touch of style to your home.",
 
     details: [
       {
         heading: "About this item",
         des: [
-          "Dream better with your dream mattress, a Masterpiece from Celeste! Luxuriously crafted with knitted fabric, insulation felt, and topped with Polyfil material to provide modern functionality. It is tufted with an HD foam layer that lets you quickly enter deep sleep and lessens uncomfortable pressure points while sleeping. It is also covered at the bottom with an Anti-Skid fabric which prevents unwanted movements.",
+          "Multipurpose use for various items.",
+          "Stylish and sturdy design.",
+          "Space-saving design to elevate the look of any room.",
+          "Easy to install with nail or screw.",
+          "Adds style to your home.",
+          "Perfect for bedroom, kitchen, closets, lounge, hall, shop, and office.",
         ],
       },
       {
         heading: "Specification",
         des: [
-          "SIZE:78*42",
-          "THCKNESS:6",
-          "Fabric treated with antimiorobial finish it limits dirt and does not allow groth of dust and fungi etc",
-          "the only high pressure in the country the steadiness make t long lasting and more durable",
+          "Sizes Available: Small size with 1 pocket.  | Large size home tree design for mobile and keys.",
+          "Thickness: 2 to 3 mm.",
+          "Material: MDF wood.",
+          "Hooks: Steel.",
+          "Color: Wood Brown (Single pocket small holder) & Black and White (Home tree design mobile and keys holder).",
+          "Number of Hooks: 7.",
         ],
       },
     ],
