@@ -45,12 +45,12 @@ p {
 }
 
 h1 {
-  font-size: 9rem;
+  font-size: 9rem ;
   line-height: 1.4;
   font-weight: 600;
   color: var(--primary-color);
 }
-@media (min-width: 320px) {
+@media (min-width: 320px)  and (max-width: 425px) {
   h1 {
     font-size: 3.3rem;
   }
@@ -266,7 +266,7 @@ section {
 
 .whatsapp-icon:hover::before {
   display: flex;
-  
+
 }
 
 /* Whatsapp Button CSS End */
