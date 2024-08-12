@@ -160,23 +160,6 @@ function viewProduct(productId) {
   });
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Products Details Downloading Function Start
 
 function Export2Word(element, filename = "") {
@@ -184,7 +167,7 @@ function Export2Word(element, filename = "") {
 
   var siteinformation = `
   <div> 
-    <h2 class="text-center">Durable Furnitures</h2>
+    <h2 class="text-center">LuxeLivings</h2>
     <p>URL:&nbsp;&nbsp; ${window.location.href}</p>
   </div>
   `;
