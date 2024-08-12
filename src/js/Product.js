@@ -2,16 +2,12 @@ const products = [
   {
     id: 1,
 
-    name: "Sofa Cooper (Velvet Olive Green)",
+    name: "Nicole Multi-Seater L Shaped Couch",
 
     images: [
-      "img/products/1-1.webp",
+      "img/products/1-1.jpg",
       "img/products/1-2.webp",
       "img/products/1-3.webp",
-      "img/products/1-4.webp",
-      "img/products/1-5.webp",
-      "img/products/1-6.webp",
-      "img/products/1-7.webp",
     ],
 
     brand: "Interwood",
@@ -21,31 +17,30 @@ const products = [
     sku: "FG020004188",
 
     variations: [
-      { size: "1 Seater", price: 57000 },
-      { size: "2 Seater", price: 105000 },
-      { size: "3 Seater", price: 150000 },
+      { size: "3 Seater", price: 80000 },
+      { size: "4 Seater", price: 96000 },
+      { size: "8 Seater", price: 150000 },
     ],
 
     description:
-      "Give your living space a chic and modern look with our stylish Cooper sofa (available in 1,2,3-seater). Its luxurious olive green velvet upholstery adds exquisite softness and elegance in any space. Featuring stylish tuxedo arms and a straight backrest with rectangular stitched tufting, Cooper exudes modern flair with comfort that lasts for hours. Its thick cushioning, featuring latex foam for a soft sinking feeling, and super flex for luxurious softness on the seat, along with high-density supreme foam on the back, provides enduring pressure relief and comfort for extended periods. The sleek black chrome finished metallic tapered legs ensure lasting stability and durability, making it a long-lasting stylish statement for any living space.",
+      "Indulge in the decadence of our Luxe Multi-Seater L Couch. Adorned in luxurious velvet, this couch boasts both comfort and style. Whether lounging or entertaining, this exclusive piece will elevate any living space. Treat yourself to the ultimate in luxury.",
 
     details: [
       {
-        heading: "About this item",
+        heading: "Dimensions: ",
         des: [
-          "Upholstery: Velvet (Olive Green)",
-          "Foam: Latex + Super Flex on Seat & Supreme on Back",
-          "Legs: Metallic Legs",
+          "3-Seater: 1600 x 600 x 450cm",
+          "4-Seater: 2200 x 600 x 450cm ",
           "Legs’ Finish: Black Chrome",
         ],
       },
       {
-        heading: "Specification",
-        des: [
-          "1-Seater Size: 32 W | 28.5 D | 30 H (Inches)",
-          "2-Seater Size: 65 W | 28.5 D | 30 H (Inches)",
-          "3-Seater Size: 96 W | 28.5 D | 30 H (Inches)",
-        ],
+        heading: "Material:",
+        des: ["Velvet"],
+      },
+      {
+        heading: "Size Options:",
+        des: ["3-Seater", "4-Seater", "8-Seater"],
       },
     ],
   },
@@ -2446,6 +2441,56 @@ const products = [
       {
         heading: "Package Included",
         des: ["1 x honeycomb ball decoration"],
+      },
+    ],
+  },
+  {
+    id: 57,
+
+    name: "Sofa Cooper (Velvet Olive Green)",
+
+    images: [
+      "img/products/57-1.webp",
+      "img/products/57-2.webp",
+      "img/products/57-3.webp",
+      "img/products/57-4.webp",
+      "img/products/57-5.webp",
+      "img/products/57-6.webp",
+      "img/products/57-7.webp",
+    ],
+
+    brand: "Interwood",
+
+    category: "Sofas",
+
+    sku: "FG020004188",
+
+    variations: [
+      { size: "1 Seater", price: 57000 },
+      { size: "2 Seater", price: 105000 },
+      { size: "3 Seater", price: 150000 },
+    ],
+
+    description:
+      "Give your living space a chic and modern look with our stylish Cooper sofa (available in 1,2,3-seater). Its luxurious olive green velvet upholstery adds exquisite softness and elegance in any space. Featuring stylish tuxedo arms and a straight backrest with rectangular stitched tufting, Cooper exudes modern flair with comfort that lasts for hours. Its thick cushioning, featuring latex foam for a soft sinking feeling, and super flex for luxurious softness on the seat, along with high-density supreme foam on the back, provides enduring pressure relief and comfort for extended periods. The sleek black chrome finished metallic tapered legs ensure lasting stability and durability, making it a long-lasting stylish statement for any living space.",
+
+    details: [
+      {
+        heading: "About this item",
+        des: [
+          "Upholstery: Velvet (Olive Green)",
+          "Foam: Latex + Super Flex on Seat & Supreme on Back",
+          "Legs: Metallic Legs",
+          "Legs’ Finish: Black Chrome",
+        ],
+      },
+      {
+        heading: "Specification",
+        des: [
+          "1-Seater Size: 32 W | 28.5 D | 30 H (Inches)",
+          "2-Seater Size: 65 W | 28.5 D | 30 H (Inches)",
+          "3-Seater Size: 96 W | 28.5 D | 30 H (Inches)",
+        ],
       },
     ],
   },
