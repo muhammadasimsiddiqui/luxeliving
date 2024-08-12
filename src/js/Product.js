@@ -10,7 +10,7 @@ const products = [
       "img/products/1-3.webp",
     ],
 
-    brand: "Interwood",
+    brand: "ObsessionOutlet",
 
     category: "Sofas",
 
@@ -47,59 +47,48 @@ const products = [
 
   {
     id: 2,
-    name: "Sofa Cooper (Beige Velvet)",
+
+    name: " U Shaped Leather Fabric Corner Sectional Sofa Set Design Couches for Living Room with Ottoman",
 
     images: [
-      "img/products/2-1.webp",
-      "img/products/2-2.webp",
-      "img/products/2-3.webp",
-      "img/products/2-4.webp",
-      "img/products/2-5.webp",
-      "img/products/2-6.webp",
-      "img/products/2-7.webp",
-      "img/products/2-8.webp",
-      "img/products/2-9.webp",
+      "img/products/2-1.jpg",
+      "img/products/2-2.jpg",
+      "img/products/2-3.jpg",
     ],
 
-    brand: "Interwood",
+    brand: "luxelivinginteriors",
 
     category: "Sofas",
 
-    sku: "FG020003948",
+    sku: "B07YM2LDN9",
 
-    variations: [
-      { size: "1 Seater", price: 57000 },
-      { size: "2 Seater", price: 92000 },
-      { size: "3 Seater", price: 120000 },
-    ],
+    variations: [{ size: "5 Seater", price: 86000 }],
 
     description:
-      "Give your living space a chic and modern look with our stylish Cooper sofa (available in 1,2,3-seater). Its luxurious olive green velvet upholstery adds exquisite softness and elegance in any space. Featuring stylish tuxedo arms and a straight backrest with rectangular stitched tufting, Cooper exudes modern flair with comfort that lasts for hours. Its thick cushioning, featuring latex foam for a soft sinking feeling, and super flex for luxurious softness on the seat, along with high-density supreme foam on the back, provides enduring pressure relief and comfort for extended periods. The sleek black chrome finished metallic tapered legs ensure lasting stability and durability, making it a long-lasting stylish statement for any living space.",
+      "Elevate your living area with our luxurious sectional sofa, designed to offer both style and functionality. This U-shaped sectional features rich leather fabric that adds a touch of sophistication to any room. With integrated storage solutions, it combines practicality with a sleek aesthetic. The sectional is available in a variety of colors to suit your unique taste—please inquire about our color options. Please note that the coffee table is not included.",
 
     details: [
       {
         heading: "About this item",
         des: [
-          "Luxurious olive green velvet upholstery for opulence and modernity.",
-          "Contemporary design with tuxedo arms and stitched tufting.",
-          "Sleek black chrome finished metallic legs for a stylish contrast.",
-          "Timeless comfort with high-resiliency foam, featuring latex for a soft sinking feeling and super flex for luxurious softness and cloud-like comfort on the seat.",
-          "High-density supreme foam on the back provides exceptional pressure relief and comfort for long hours.",
-          "Highly durable construction for long-term use.",
-          "Versatile seating options in 1-, 2-, and 3-seater variants.",
-          "Available in elegant beige and olive green colors to complement your style. ",
-          "Legs’ Finish: Black Chrome",
-          "Foam: Latex + Super Flex on Seat & Supreme",
-          "Legs: Metallic Legs",
-          "Upholstery: Velvet (Olive Green)  Back",
+          "Elegant U-shaped sectional design perfect for spacious living rooms.",
+          "Crafted from high-quality leather fabric for a refined look and feel.",
+          "Features built-in storage to keep your space organized and clutter-free.",
+          "Versatile color options available to match any decor—please consult for color choices.",
+          "Dimensions and specific configurations can be viewed in the product images.",
+          "Coffee table is not included with the sectional.",
         ],
       },
       {
         heading: "Specification",
         des: [
-          "1-Seater Size: 32 W | 28.5 D | 30 H (Inches)",
-          "2-Seater Size: 65 W | 28.5 D | 30 H (Inches)",
-          "3-Seater Size: 96 W | 28.5 D | 30 H (Inches)",
+          "Size: U-shaped sectional (dimensions available in images).",
+          "Material: Leather fabric",
+          "Specific Use: Living Room",
+          "Style: Sectional Sofa",
+          "Combination: U-shaped with storage",
+          "Fabric: Leather",
+          "Color: Customizable (check with us for your preferred color)",
         ],
       },
     ],
@@ -107,60 +96,43 @@ const products = [
 
   {
     id: 3,
-    name: "Kessel Sofa (Grey)",
+    name: "Diego Living Set",
 
-    images: [
-      "img/products/3-1.webp",
-      "img/products/3-2.webp",
-      "img/products/3-3.webp",
-      "img/products/3-4.webp",
-      "img/products/3-5.webp",
-      "img/products/3-6.webp",
-      "img/products/3-7.webp",
-      "img/products/3-8.webp",
-      "img/products/3-9.webp",
-    ],
+    images: ["img/products/3-1.jpg"],
 
-    brand: "Interwood",
+    brand: "DolceVitaHome",
 
     category: "Sofas",
 
-    sku: "FG020004173",
+    sku: "98520004173",
 
     variations: [
-      { size: "1 Seater", price: 50000 },
-      { size: "2 Seater", price: 80000 },
-      { size: "3 Seater", price: 110000 },
+      { size: "3 Seater", price: 47000 },
+      { size: "5 Seater", price: 50500 },
     ],
 
     description:
-      "Give your living space a chic and modern look with our stylish Cooper sofa (available in 1,2,3-seater). Its luxurious beige velvet upholstery adds exquisite softness and elegance in any space. Featuring stylish tuxedo arms and a straight backrest with rectangular stitched tufting, Cooper exudes modern flair with comfort that lasts for hours. Its thick cushioning, featuring latex foam for a soft sinking feeling, and super flex for luxurious softness on the seat, along with high-density supreme foam on the back, provides enduring pressure relief and comfort for extended periods. The sleek black chrome finished metallic tapered legs ensure lasting stability and durability, making it a long-lasting stylish statement for any living space.",
+      "Transform your living space with the Diego Living Set, a blend of modern elegance and versatile functionality from DolceVitaHome. This stylish set features a sleek sectional design upholstered in premium leather, combining both comfort and luxury. With options for a 3-seater or 5-seater configuration, it adapts perfectly to your space and needs. The set also includes convenient built-in storage, making it as practical as it is chic. Available in a range of colors to match your decor—please contact us to choose your preferred shade. Note that the coffee table is sold separately.",
 
     details: [
       {
         heading: "About this item",
         des: [
-          "Luxurious olive green velvet upholstery for opulence and modernity.",
-          "Contemporary design with tuxedo arms and stitched tufting.",
-          "Sleek black chrome finished metallic legs for a stylish contrast.",
-          "Timeless comfort with high-resiliency foam, featuring latex for a soft sinking feeling and super flex for luxurious softness and cloud-like comfort on the seat.",
-          "High-density supreme foam on the back provides exceptional pressure relief and comfort for long hours.",
-          "Highly durable construction for long-term use.",
-          "Versatile seating options in 1-, 2-, and 3-seater variants.",
-          "Available in elegant beige and olive green colors to complement your style.",
-          "Upholstery: Velvet (Beige)",
-          "Foam: Latex + Super Flex on Seat & Supreme on Back",
-          "Legs: Metallic Legs",
-          "Legs’ Finish: Black Chrome",
+          "Modern sectional design with a sophisticated leather upholstery.",
+          "Available in versatile 3-seater and 5-seater configurations.",
+          "Includes built-in storage for added convenience and organization.",
+          "Customizable color options to fit your style—please inquire for available colors.",
+          "Dimensions and configurations are detailed in the product images.",
+          "Coffee table not included in the set.",
         ],
       },
       {
-        heading: "Specifications",
-        des: [
-          "1- Seater Size: 32 W | 28.5 D | 30 H (Inches)",
-          "2-Seater Size: 65 W | 28.5 D | 30 H (Inches)",
-          "3-Seater Size: 96 W | 28.5 D | 30 H (Inches)",
-        ],
+        heading: "Size",
+        des: ["3-Seater", "5-Seater"],
+      },
+      {
+        heading: "Features",
+        des: ["Sectional design with built-in storage"],
       },
     ],
   },
@@ -2488,6 +2460,124 @@ const products = [
         heading: "Specification",
         des: [
           "1-Seater Size: 32 W | 28.5 D | 30 H (Inches)",
+          "2-Seater Size: 65 W | 28.5 D | 30 H (Inches)",
+          "3-Seater Size: 96 W | 28.5 D | 30 H (Inches)",
+        ],
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "Sofa Cooper (Beige Velvet)",
+
+    images: [
+      "img/products/58-1.webp",
+      "img/products/58-2.webp",
+      "img/products/58-3.webp",
+      "img/products/58-4.webp",
+      "img/products/58-5.webp",
+      "img/products/58-6.webp",
+      "img/products/58-7.webp",
+      "img/products/58-8.webp",
+      "img/products/58-9.webp",
+    ],
+
+    brand: "Interwood",
+
+    category: "Sofas",
+
+    sku: "FG020003948",
+
+    variations: [
+      { size: "1 Seater", price: 57000 },
+      { size: "2 Seater", price: 92000 },
+      { size: "3 Seater", price: 120000 },
+    ],
+
+    description:
+      "Give your living space a chic and modern look with our stylish Cooper sofa (available in 1,2,3-seater). Its luxurious olive green velvet upholstery adds exquisite softness and elegance in any space. Featuring stylish tuxedo arms and a straight backrest with rectangular stitched tufting, Cooper exudes modern flair with comfort that lasts for hours. Its thick cushioning, featuring latex foam for a soft sinking feeling, and super flex for luxurious softness on the seat, along with high-density supreme foam on the back, provides enduring pressure relief and comfort for extended periods. The sleek black chrome finished metallic tapered legs ensure lasting stability and durability, making it a long-lasting stylish statement for any living space.",
+
+    details: [
+      {
+        heading: "About this item",
+        des: [
+          "Luxurious olive green velvet upholstery for opulence and modernity.",
+          "Contemporary design with tuxedo arms and stitched tufting.",
+          "Sleek black chrome finished metallic legs for a stylish contrast.",
+          "Timeless comfort with high-resiliency foam, featuring latex for a soft sinking feeling and super flex for luxurious softness and cloud-like comfort on the seat.",
+          "High-density supreme foam on the back provides exceptional pressure relief and comfort for long hours.",
+          "Highly durable construction for long-term use.",
+          "Versatile seating options in 1-, 2-, and 3-seater variants.",
+          "Available in elegant beige and olive green colors to complement your style. ",
+          "Legs’ Finish: Black Chrome",
+          "Foam: Latex + Super Flex on Seat & Supreme",
+          "Legs: Metallic Legs",
+          "Upholstery: Velvet (Olive Green)  Back",
+        ],
+      },
+      {
+        heading: "Specification",
+        des: [
+          "1-Seater Size: 32 W | 28.5 D | 30 H (Inches)",
+          "2-Seater Size: 65 W | 28.5 D | 30 H (Inches)",
+          "3-Seater Size: 96 W | 28.5 D | 30 H (Inches)",
+        ],
+      },
+    ],
+  },
+  {
+    id: 59,
+    name: "Kessel Sofa (Grey)",
+
+    images: [
+      "img/products/59-1.webp",
+      "img/products/59-2.webp",
+      "img/products/59-3.webp",
+      "img/products/59-4.webp",
+      "img/products/59-5.webp",
+      "img/products/59-6.webp",
+      "img/products/59-7.webp",
+      "img/products/59-8.webp",
+      "img/products/59-9.webp",
+    ],
+
+    brand: "Interwood",
+
+    category: "Sofas",
+
+    sku: "FG020004173",
+
+    variations: [
+      { size: "1 Seater", price: 50000 },
+      { size: "2 Seater", price: 80000 },
+      { size: "3 Seater", price: 110000 },
+    ],
+
+    description:
+      "Give your living space a chic and modern look with our stylish Cooper sofa (available in 1,2,3-seater). Its luxurious beige velvet upholstery adds exquisite softness and elegance in any space. Featuring stylish tuxedo arms and a straight backrest with rectangular stitched tufting, Cooper exudes modern flair with comfort that lasts for hours. Its thick cushioning, featuring latex foam for a soft sinking feeling, and super flex for luxurious softness on the seat, along with high-density supreme foam on the back, provides enduring pressure relief and comfort for extended periods. The sleek black chrome finished metallic tapered legs ensure lasting stability and durability, making it a long-lasting stylish statement for any living space.",
+
+    details: [
+      {
+        heading: "About this item",
+        des: [
+          "Luxurious olive green velvet upholstery for opulence and modernity.",
+          "Contemporary design with tuxedo arms and stitched tufting.",
+          "Sleek black chrome finished metallic legs for a stylish contrast.",
+          "Timeless comfort with high-resiliency foam, featuring latex for a soft sinking feeling and super flex for luxurious softness and cloud-like comfort on the seat.",
+          "High-density supreme foam on the back provides exceptional pressure relief and comfort for long hours.",
+          "Highly durable construction for long-term use.",
+          "Versatile seating options in 1-, 2-, and 3-seater variants.",
+          "Available in elegant beige and olive green colors to complement your style.",
+          "Upholstery: Velvet (Beige)",
+          "Foam: Latex + Super Flex on Seat & Supreme on Back",
+          "Legs: Metallic Legs",
+          "Legs’ Finish: Black Chrome",
+        ],
+      },
+      {
+        heading: "Specifications",
+        des: [
+          "1- Seater Size: 32 W | 28.5 D | 30 H (Inches)",
           "2-Seater Size: 65 W | 28.5 D | 30 H (Inches)",
           "3-Seater Size: 96 W | 28.5 D | 30 H (Inches)",
         ],
