@@ -97,9 +97,10 @@ function viewProduct(productId) {
               <h2 id="productPrice">Pkr&nbsp;${product.variations[0].price}</h2>
               <br>
               <button 
+              onclick="addToCart(${product.id})"
                 class="main-btn" 
                 data-bs-toggle="modal" 
-                data-bs-target="#addtocart">
+                data-bs-target="#">
                 Add to Cart&nbsp;&nbsp; <i class="fa-solid fa-basket-shopping"></i>
               </button>
               &nbsp;&nbsp;&nbsp;&nbsp;

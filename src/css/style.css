@@ -1398,3 +1398,16 @@ h5 > span {
 }
 
 /************************************ Section Footer CSS End ************************************/
+
+.Main-cart img{
+  height: 50px ;
+  width: 50px ;
+}
+.Main-cart{
+  font-size: 14px !important;
+  font-family: var(--secondary-font);
+  color: var(--dark) ;
+}
+.Main-cart a{
+  color: var(--dark) ;
+}
