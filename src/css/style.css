@@ -1403,11 +1403,23 @@ h5 > span {
   height: 50px ;
   width: 50px ;
 }
+
 .Main-cart{
   font-size: 14px !important;
   font-family: var(--secondary-font);
   color: var(--dark) ;
 }
+
 .Main-cart a{
   color: var(--dark) ;
 }
+
+.summary-head{
+  background-color: var(--primary-color)
+}
+
+.font-p{
+  font-size: 16px !important;
+}
+
+
