@@ -8,6 +8,25 @@ window.onscroll = function () {
   }
 };
 
+//NavBar Add And Remove Active Classes
+
+document.addEventListener("DOMContentLoaded", function () {
+  const currentPage = window.location.pathname.toLowerCase();
+  const navLinks = document.querySelectorAll(".nav-link");
+  navLinks.forEach((link) => {
+    const linkPathname = new URL(link.href).pathname.toLowerCase();
+    const hasDropdown =
+      link.nextElementSibling &&
+      link.nextElementSibling.classList.contains("dropdown-menu");
+    if (currentPage === linkPathname && !hasDropdown) {
+      link.classList.add("active");
+    } else {
+      link.classList.remove("active");
+    }
+  });
+});
+
+
 // Counter
 let targetElements = document.querySelectorAll(".digit-box");
 let animationtimming = 0.0001;
@@ -24,20 +43,6 @@ targetElements.forEach((targetElement) => {
     }
   }, timing);
 });
-// 
-document.addEventListener('DOMContentLoaded', function() {
-  const navLinks = document.querySelectorAll('.nav-link'); // Select all navigation links
-  const currentUrl = window.location.href; // Get the current URL
-
-  navLinks.forEach(link => {
-      if (link.href === currentUrl) {
-          link.classList.add('active'); // Add 'active' class if current URL matches the link
-      } else {
-          link.classList.remove('active'); // Remove 'active' class if it does not match
-      }
-  });
-});
-
 
 // Change Page Shop
 function shop() {
@@ -53,7 +58,6 @@ function formsubmition() {
   document.getElementById("myForm").reset();
   return false;
 }
-
 
 function addtocartform() {
   // Show SweetAlert dialog
