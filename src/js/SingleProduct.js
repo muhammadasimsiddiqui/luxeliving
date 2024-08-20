@@ -46,7 +46,7 @@ function viewProduct(productId) {
   productDetail.innerHTML = `
     <div class="single-product-page">
       <div class="container"  id="exportContent">
-        <div class="row align-items-center">
+        <div class="row">
           <div class="col-lg-6">
             <div class="right-box">
               <div class="main-img-box">
@@ -75,9 +75,7 @@ function viewProduct(productId) {
           </div>
           <div class="col-lg-6">
             <div class="px-lg-5">
-              
-              <br>
-              <h2 class="mb-0">${product.name}</h2>
+              <h2 class="m-0 pt-md-5 pt-lg-0">${product.name}</h2>
               <p class="d-none d-lg-block pro-des">${product.description}</p>
               <br>
               <table cellspacing="0" class="inputs">
