@@ -22,7 +22,6 @@
 
     <!----- Custom CSS ----->
     <link rel="stylesheet" href="src/css/style.css" />
-   
   </head>
   <body>
     <!------------ Start Header ------------>
@@ -932,21 +931,13 @@
 
     <!------------ End Header ------------>
 
-    <!------------- End Form  ------------>
+    <!------------- Start Form  ------------>
 
     <section class="container-fluid">
       <div class="container">
         <div
           class="row justify-content-around account-cont align-items-stretch"
         >
-          <div class="col-md-6">
-            <img
-              src="img/banners/account-pg.jpg"
-              class="img-fluid"
-              alt=""
-              style="height: 100dvh; width: 100%"
-            />
-          </div>
           <div
             class="col-md-6 p-md-5 justify-content-center d-flex align-items-center acc-form-main-cont pt-5 pt-md-0"
           >
@@ -954,11 +945,17 @@
               <h1>luxeliving</h1>
               <form action="#" class="acc-form">
                 <div class="input-group d-flex flex-column">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                  />
+                </div>
+                <div class="input-group d-flex flex-column">
                   <label for="email">Email</label>
                   <input
                     type="email"
                     id="email"
-                    placeholder="Enter your Email here"
                   />
                 </div>
                 <div class="input-group d-flex flex-column">
@@ -966,21 +963,22 @@
                   <input
                     type="password"
                     id="password"
-                    placeholder="Enter your Password"
                   />
                 </div>
-                <div>
-                  <p class="text-start ps-md-3">
-                    <a href="#" style="color: #c02951">Forgot your password?</a>
-                  </p>
+                <div class="input-group d-flex flex-column">
+                  <label for="password">Confirm Password</label>
+                  <input
+                    type="password"
+                    id="password"
+                  />
                 </div>
                 <div class="justify-content-center d-flex">
-                  <input type="submit" value="Log In" class="btn" />
+                  <input type="submit" value="Sign Up" class="btn" />
                 </div>
               </form>
               <p class="text-center">
-                Don't have an account?
-                <a href="#" style="color: #0c5a49">Sign Up</a>
+                Already have an account?
+                <a href="#" style="color: #0c5a49">Log in</a>
               </p>
               <div class="text-center">
                 <p class="" style="color: #777">OR</p>
@@ -1000,6 +998,14 @@
                 </i>
               </div>
             </div>
+          </div>
+          <div class="col-md-6 align-content-center">
+            <img
+              src="img/banners/account-pg.jpg"
+              class="img-fluid"
+              alt=""
+              style="height: 100% ; width: 100%"
+            />
           </div>
         </div>
       </div>
