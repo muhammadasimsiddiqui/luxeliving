@@ -323,7 +323,7 @@ section {
 }
 /* Title CSS End */
 
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }
 
@@ -490,39 +490,14 @@ header {
   fill: var(--primary-color);
 }
 
-.cart-btn-ic{
+.cart-btn-ic {
   font-size: 16px;
 }
 /* Search Bar CSS End */
 
 /************************************ Section Header CSS End ************************************/
 
-/************************************ HomePage CSS Start ************************************/
-
-/* Hero Section CSS Start */
-
-/* .home-hero {
-  background-color: var(--secondary-color);
-  background-image: url(../../img/banners/couch.png);
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: 640px auto;
-  margin-bottom: 10rem;
-} */
-
-/* Tablet */
-/* @media (max-width: 768px) {
-  .home-hero {
-    background-size: 440px auto;
-  }
-} */
-
-/* Mobile */
-/* @media (max-width: 425px) {
-  .home-hero {
-    background-image: none;
-  }
-} */
+/************************************ Section Hero CSS Start ************************************/
 
 .home-hero {
   background-color: var(--secondary-color);
@@ -551,8 +526,6 @@ header {
 /* Mobile */
 @media (max-width: 425px) {
   .home-hero {
-    /* background-size: 320px auto;
-    background-position: center center; */
     background-image: none;
   }
 }
@@ -587,9 +560,9 @@ header {
   border-color: var(--white) !important;
 }
 
-/* Hero Section CSS Start */
+/************************************ Section Hero CSS End ************************************/
 
-/* Contact Section CSS Start */
+/********************************** Section Contact CSS Start ***********************************/
 
 .bg-contact {
   background-color: var(--white);
@@ -641,9 +614,9 @@ header {
   letter-spacing: 1px;
 }
 
-/* Contact Section CSS End */
+/*********************************** Section Contact CSS End ************************************/
 
-/* Feature Section CSS Start */
+/********************************** Section Feature CSS Start ***********************************/
 
 .feature-container {
   padding: 50px 50px;
@@ -699,9 +672,9 @@ header {
   background-color: #fff2e5;
 }
 
-/* Feature Section CSS End */
+/*********************************** Section Feature CSS End ************************************/
 
-/* Banner Section CSS Start */
+/******************************* Section Banner Section CSS Start ********************************/
 
 .banner {
   width: 100%;
@@ -738,9 +711,9 @@ header {
   border: 2px solid var(--secondary-color);
 }
 
-/* Banner Section CSS End */
+/******************************** Section Banner Section CSS End *********************************/
 
-/* Banner Category CSS Start */
+/******************************* Section Banner Category CSS Start ********************************/
 
 .category-banner {
   position: relative;
@@ -790,9 +763,9 @@ header {
   padding-bottom: 60vh;
 }
 
-/* Banner Category CSS End */
+/******************************** Section Banner Category CSS End *********************************/
 
-/* Testinomials Category CSS Start */
+/**************************** Section Testinomials Category CSS Star *******************************/
 
 .bg-sec {
   background: var(--secondary-color);
@@ -802,9 +775,7 @@ header {
   padding-bottom: 80px;
 }
 
-/* Testinomials Category CSS End */
-
-/************************************ HomePage CSS End ************************************/
+/***************************** Section Testinomials Category CSS End *******************************/
 
 /************************************ Section Product CSS Start ************************************/
 
@@ -1407,6 +1378,8 @@ h5 > span {
 
 /************************************ Section Footer CSS End ************************************/
 
+/************************************* Page Cart CSS Start *************************************/
+
 .Main-cart img {
   height: 50px;
   width: 50px;
@@ -1430,7 +1403,10 @@ h5 > span {
   font-size: 16px !important;
 }
 
-/************************************ Login & Signup Page CSS Start ************************************/
+/************************************* Page Cart CSS End *************************************/
+
+/******************************* Login & Signup Page CSS Start *******************************/
+
 .acc-form label {
   font-size: 18px;
 }
@@ -1491,4 +1467,4 @@ h5 > span {
   color: var(--green-color);
 }
 
-/************************************ Login & Signup Page CSS End ************************************/
+/******************************* Login & Signup Page CSS End *******************************/
