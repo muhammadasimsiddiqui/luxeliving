@@ -19,6 +19,7 @@
   --secondary-color: #adbc9f;
   --white: #fff;
   --dark: #000;
+  --green-color: #0c5a49;
 
   /* Font Family */
   --primary-font: "Barlow Condensed", sans-serif;
@@ -321,6 +322,10 @@ section {
   background-color: var(--secondary-color) !important;
 }
 /* Title CSS End */
+
+.cursor-pointer{
+  cursor: pointer;
+}
 
 /************************************ Global CSS End ************************************/
 
@@ -1399,27 +1404,88 @@ h5 > span {
 
 /************************************ Section Footer CSS End ************************************/
 
-.Main-cart img{
-  height: 50px ;
-  width: 50px ;
+.Main-cart img {
+  height: 50px;
+  width: 50px;
 }
 
-.Main-cart{
+.Main-cart {
   font-size: 14px !important;
   font-family: var(--secondary-font);
-  color: var(--dark) ;
+  color: var(--dark);
 }
 
-.Main-cart a{
-  color: var(--dark) ;
+.Main-cart a {
+  color: var(--dark);
 }
 
-.summary-head{
-  background-color: var(--primary-color)
+.summary-head {
+  background-color: var(--primary-color);
 }
 
-.font-p{
+.font-p {
   font-size: 16px !important;
 }
 
+/************************************ Login & Signup Page CSS Start ************************************/
+.acc-form label {
+  font-size: 18px;
+}
 
+.acc-form input::placeholder {
+  font-size: 16px;
+}
+
+.acc-form-main-cont {
+  overflow: hidden;
+}
+.acc-form-main-cont h1 {
+  font-size: 150px;
+  line-height: 1 !important;
+  color: #0c5a49;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .acc-form-main-cont h1 {
+    font-size: 80px;
+  }
+}
+
+.acc-form-main-cont .input-group {
+  margin-bottom: 15px;
+}
+
+.acc-form-main-cont .input-group label {
+  color: #777;
+}
+
+.acc-form-main-cont .input-group input {
+  border-radius: 8px !important;
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.acc-form-main-cont .input-group input:active,
+.acc-form-main-cont .input-group input:focus {
+  border: 2px solid var(--secondary-color);
+}
+
+.acc-form-main-cont .btn {
+  padding: 10px 50px;
+  border: 2px solid var(--green-color);
+  border-radius: 5px;
+  background-color: var(--green-color);
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.acc-form-main-cont .btn:hover {
+  background-color: transparent;
+  color: var(--green-color);
+}
+
+/************************************ Login & Signup Page CSS End ************************************/

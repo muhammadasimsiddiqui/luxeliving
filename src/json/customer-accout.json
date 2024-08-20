@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "phone_number": "+1234567890",
+    "password": "SecurePassword123!",
+    "address": {
+      "street": "1234 Elm Street",
+      "city": "Springfield",
+      "state": "IL",
+      "zip_code": "62704",
+      "country": "USA"
+    },
+    "gender": "Male",
+    "age": 30
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "janesmith@example.com",
+    "phone_number": "+1234567891",
+    "password": "PasswordExample234!",
+    "address": {
+      "street": "4321 Maple Drive",
+      "city": "Centerville",
+      "state": "OH",
+      "zip_code": "45459",
+      "country": "USA"
+    },
+    "gender": "Female",
+    "age": 28
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "email": "alicejohnson@example.com",
+    "phone_number": "+1234567892",
+    "password": "AlicePass123!",
+    "address": {
+      "street": "789 Pine Road",
+      "city": "Lakeview",
+      "state": "TX",
+      "zip_code": "75901",
+      "country": "USA"
+    },
+    "gender": "Female",
+    "age": 35
+  },
+  {
+    "id": 4,
+    "name": "Bob Brown",
+    "email": "bobbrown@example.com",
+    "phone_number": "+1234567893",
+    "password": "BobPass456!",
+    "address": {
+      "street": "321 Oak Lane",
+      "city": "Shady Oaks",
+      "state": "FL",
+      "zip_code": "33101",
+      "country": "USA"
+    },
+    "gender": "Male",
+    "age": 40
+  },
+  {
+    "id": 5,
+    "name": "Charlie Green",
+    "email": "charliegreen@example.com",
+    "phone_number": "+1234567894",
+    "password": "GreenChar123!",
+    "address": {
+      "street": "654 Willow Way",
+      "city": "River City",
+      "state": "CA",
+      "zip_code": "90201",
+      "country": "USA"
+    },
+    "gender": "Male",
+    "age": 22
+  },
+  {
+    "id": 6,
+    "name": "Diana Prince",
+    "email": "dianaprince@example.com",
+    "phone_number": "+1234567895",
+    "password": "WonderW2020!",
+    "address": {
+      "street": "267 Wonder Lane",
+      "city": "Metropolis",
+      "state": "NY",
+      "zip_code": "10001",
+      "country": "USA"
+    },
+    "gender": "Female",
+    "age": 32
+  },
+  {
+    "id": 7,
+    "name": "Ethan Hunt",
+    "email": "ethanhunt@example.com",
+    "phone_number": "+1234567896",
+    "password": "Mission123!",
+    "address": {
+      "street": "101 Spy Ave",
+      "city": "Langley",
+      "state": "VA",
+      "zip_code": "22101",
+      "country": "USA"
+    },
+    "gender": "Male",
+    "age": 39
+  },
+  {
+    "id": 8,
+    "name": "Fiona Gale",
+    "email": "fionagale@example.com",
+    "phone_number": "+1234567897",
+    "password": "Tornado2021!",
+    "address": {
+      "street": "202 Storm Street",
+      "city": "Windy",
+      "state": "KS",
+      "zip_code": "67201",
+      "country": "USA"
+    },
+    "gender": "Female",
+    "age": 27
+  },
+  {
+    "id": 9,
+    "name": "George Long",
+    "email": "georgelong@example.com",
+    "phone_number": "+1234567898",
+    "password": "LongestPass!",
+    "address": {
+      "street": "333 Long Road",
+      "city": "Talltown",
+      "state": "MT",
+      "zip_code": "59001",
+      "country": "USA"
+    },
+    "gender": "Male",
+    "age": 45
+  },
+  {
+    "id": 10,
+    "name": "Hannah Short",
+    "email": "hannahshort@example.com",
+    "phone_number": "+1234567899",
+    "password": "ShortList!",
+    "address": {
+      "street": "444 Small Blvd",
+      "city": "Little Rock",
+      "state": "AR",
+      "zip_code": "72201",
+      "country": "USA"
+    },
+    "gender": "Female",
+    "age": 26
+  },
+  {
+    "id": 11,
+    "name": "Muhammad Asim Siddiqui",
+    "email": "info.muhammadasimsiddqiui@gmail.com",
+    "phone_number": "+923243416388",
+    "password": "password",
+    "address": {
+      "street": "55",
+      "city": "Karachi",
+      "state": "Korangi",
+      "zip_code": "75160",
+      "country": "Pakistan"
+    },
+    "gender": "Male",
+    "age": 17
+  }
+]
