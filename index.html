@@ -54,17 +54,35 @@
           <div class="justify-content-end d-flex">
             <div class="d-flex d-lg-none align-items-center">
               <!-- Wishlist Icon -->
-              <div class="icon-wrapper mx-1">
-                <a href="#" class="icon-link">
-                  <i class="text-color fas fa-heart"></i>
+              <button type="button" class="btn border-0">
+                <a
+                  href="wishlist.html"
+                  class="cart-btn-ic position-relative"
+                  title="wishlist"
+                >
+                  <i class="text-color fas fas fa-heart"></i
+                  ><span
+                    class="text-color position-absolute start-100 translate-middle-y"
+                    id="wishlist-badge"
+                  >
+                    0
+                    <span class="visually-hidden">Wishlist</span>
+                  </span>
                 </a>
-              </div>
+              </button>
               <!-- Add To Cart Icon -->
-              <div class="icon-wrapper mx-1">
-                <a href="cart.html" class="icon-link">
-                  <i class="text-color fas fa-shopping-cart"></i>
+              <button type="button" class="btn border-0">
+                <a href="cart.html" class="cart-btn-ic position-relative">
+                  <i class="text-color fas fa-shopping-cart"></i
+                  ><span
+                    class="text-color position-absolute start-100 translate-middle-y"
+                    id="cart-badge"
+                  >
+                    0
+                    <span class="visually-hidden">Carts Items</span>
+                  </span>
                 </a>
-              </div>
+              </button>
             </div>
             <!-- NavBar Toggle Btn -->
             <button
@@ -925,7 +943,6 @@
               </div>
               <div class="d-lg-flex d-none d-sm-none align-items-center px-4">
                 <!-- Wishlist Icon -->
-                <!-- Add To Cart Icon -->
                 <button type="button" class="btn border-0">
                   <a href="wishlist.html" class="cart-btn-ic position-relative">
                     <i class="text-color fas fas fa-heart"></i
@@ -970,6 +987,8 @@
         </div>
       </nav>
     </header>
+    <!--  -->
+  
 
     <!------------ End Header ------------>
 
