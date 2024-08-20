@@ -26,35 +26,37 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-//
+// SearchBar
 fetch("src/json/product.json")
   .then((response) => response.json())
   .then((data) => {
-    const products = data; // Assign the fetched data to the products array
-    const productList = document.getElementById("productList"); // Get the datalist element
+    const searchBarproducts = data; // Assign the fetched data to the searchBarproducts array
+    const searchBarProductlist = document.getElementById("searchbarprolist"); // Get the datalist element
 
-    products.forEach((product) => {
+    searchBarproducts.forEach((product) => {
       const option = document.createElement("option");
       option.value = product.name;
-      option.dataset.id = product.id; // Store the product ID in a data attribute
-      productList.appendChild(option);
+      option.dataset.id = product.id;
+      searchBarProductlist.appendChild(option);
     });
+    document
+      .getElementById("searchbar")
+      .addEventListener("change", function (e) {
+        const selectedOption = [...searchBarProductlist.options].find(
+          (option) => option.value === e.target.value
+        );
 
-    // Redirect to the product detail page when a product is selected
-    document.getElementById("input").addEventListener("change", function (e) {
-      const selectedOption = [...productList.options].find(
-        (option) => option.value === e.target.value
-      );
-
-      if (selectedOption) {
-        const productId = selectedOption.dataset.id;
-        window.location.href = `productDetail.html?id=${productId}`;
-      }
-    });
-  })
-  .catch((error) => {
-    console.error("Error fetching the product data:", error);
+        if (selectedOption) {
+          const productId = selectedOption.dataset.id;
+          window.location.href = `productDetail.html?id=${productId}`;
+        }
+      });
   });
+
+// Change Page to signup
+function changeSignUp() {
+  window.location.href = "signup.html";
+}
 
 // Counter
 let targetElements = document.querySelectorAll(".digit-box");

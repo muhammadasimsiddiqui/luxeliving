@@ -421,7 +421,7 @@ header {
     display: flex;
   }
   .mega-menu {
-    transform: translate3d(-140px, 4px, 0);
+    transform: translate3d(-40%, 4px, 0);
   }
 }
 
@@ -444,7 +444,7 @@ header {
 
 /* Search Bar CSS Start */
 
-.InputContainer {
+.SearchBarContainer {
   height: 40px;
   display: flex;
   align-items: center;
@@ -456,40 +456,43 @@ header {
   padding-left: 15px;
 }
 
-.input {
+.SearchBarContainer .searchbarinput {
   width: 170px;
   height: 100%;
   border: none;
   background-color: #eceae7;
   outline: none;
-  font-size: 0.9em;
+  font-size: 16px;
   caret-color: var(--primary-color);
 }
 
-.input::placeholder {
-  font-size: 1.3rem;
+.SearchBarContainer .searchbarinput::placeholder {
+  font-size: 14px;
   letter-spacing: 1.5px;
 }
 
-.labelforsearch {
+.SearchBarContainer .labelforsearch {
   cursor: text;
   padding: 0px 12px;
 }
 
-.searchIcon {
+.SearchBarContainer .searchIcon {
   width: 13px;
 }
 
-.border {
+.SearchBarContainer .border {
   height: 40%;
   width: 1.3px;
   background-color: rgb(223, 223, 223);
 }
 
-.searchIcon {
+.SearchBarContainer .searchIcon {
   fill: var(--primary-color);
 }
 
+.cart-btn-ic{
+  font-size: 16px;
+}
 /* Search Bar CSS End */
 
 /************************************ Section Header CSS End ************************************/

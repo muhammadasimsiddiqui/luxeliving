@@ -30,55 +30,6 @@
     <link rel="stylesheet" href="src/css/lightbox.css" />
 
     <!----- Custom CSS ----->
-    <style>
-      /* Ensure the search bar input takes up full width */
-      .InputContainer {
-        position: relative;
-        width: 100%;
-      }
-
-      .input {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
-        box-sizing: border-box;
-      }
-
-      .labelforsearch {
-        position: absolute;
-        top: 50%;
-        right: 10px;
-        transform: translateY(-50%);
-      }
-
-      /* Style the datalist dropdown */
-      #productList {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        max-height: 300px;
-        overflow-y: auto;
-        background-color: #333;
-        color: white;
-        border-radius: 5px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-        z-index: 1000;
-        box-sizing: border-box;
-      }
-
-      #productList option {
-        padding: 10px;
-        cursor: pointer;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-
-      #productList option:hover {
-        background-color: #444;
-      }
-    </style>
     <link rel="stylesheet" href="src/css/style.css" />
   </head>
   <body>
@@ -110,7 +61,7 @@
               </div>
               <!-- Add To Cart Icon -->
               <div class="icon-wrapper mx-1">
-                <a href="#" class="icon-link">
+                <a href="cart.html" class="icon-link">
                   <i class="text-color fas fa-shopping-cart"></i>
                 </a>
               </div>
@@ -156,24 +107,23 @@
                 class="row justify-content-center align-items-center w-100 pt-lg-2"
               >
                 <div class="row col-lg-8">
-                  <form class="InputContainer w-100">
+                  <form class="SearchBarContainer w-100">
                     <input
                       type="text"
                       name="text"
-                      class="input w-100"
-                      id="input"
+                      class="searchbarinput w-100"
+                      id="searchbar"
                       placeholder="Search Product"
-                      list="productList"
+                      list="searchbarprolist"
                       autocomplete="off"
                     />
-                    <label for="input" class="labelforsearch">
-                      <i class="searchIcon fa-solid fa-magnifying-glass"></i>
-                    </label>
-                    <datalist id="productList">
+                    <datalist id="searchbarprolist">
                       <!-- Options will be populated by JavaScript -->
                     </datalist>
+                    <label for="searchbar" class="labelforsearch">
+                      <i class="searchIcon fa-solid fa-magnifying-glass"></i>
+                    </label>
                   </form>
-                  
                 </div>
                 <div class="row pt-lg-3">
                   <ul
@@ -975,25 +925,46 @@
               </div>
               <div class="d-lg-flex d-none d-sm-none align-items-center px-4">
                 <!-- Wishlist Icon -->
-                <div class="icon-wrapper mx-2">
-                  <a href="#" class="icon-link">
-                    <i class="text-color fas fa-heart"></i>
-                  </a>
-                </div>
                 <!-- Add To Cart Icon -->
-                <div class="icon-wrapper mx-2">
-                  <a href="#" class="icon-link">
-                    <i class="text-color fas fa-shopping-cart"></i>
+                <button type="button" class="btn border-0">
+                  <a href="wishlist.html" class="cart-btn-ic position-relative">
+                    <i class="text-color fas fas fa-heart"></i
+                    ><span
+                      class="text-color position-absolute start-100 translate-middle-y"
+                      id="wishlist-badge"
+                    >
+                      0
+                      <span class="visually-hidden">Carts Items</span>
+                    </span>
                   </a>
-                </div>
+                </button>
+                <!-- Add To Cart Icon -->
+                <button type="button" class="btn border-0">
+                  <a href="cart.html" class="cart-btn-ic position-relative">
+                    <i class="text-color fas fa-shopping-cart"></i
+                    ><span
+                      class="text-color position-absolute start-100 translate-middle-y"
+                      id="cart-badge"
+                    >
+                      0
+                      <span class="visually-hidden">Carts Items</span>
+                    </span>
+                  </a>
+                </button>
               </div>
               <!-- Signup Button -->
               <button
                 class="btn-signup d-none d-lg-flex align-items-center justify-content-center"
+                onclick="changeSignUp()"
               >
                 Sign Up
               </button>
-              <button class="btn-signup mt-auto d-lg-none">Sign Up</button>
+              <button
+                class="btn-signup mt-auto d-lg-none"
+                onclick="changeSignUp()"
+              >
+                Sign Up
+              </button>
             </div>
           </div>
         </div>
@@ -1851,4 +1822,5 @@
   <script src="src/js/Script.js"></script>
   <script src="src/js/SixProduct.js"></script>
   <script src="src/js/HomeProducts.js"></script>
+  <script src="src/js/cart.js"></script>
 </html>
