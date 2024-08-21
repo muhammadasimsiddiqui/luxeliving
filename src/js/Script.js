@@ -1,16 +1,34 @@
 // Header Scroll
-let nav = document.querySelector("header");
-window.onscroll = function () {
-  if (document.documentElement.scrollTop > 50) {
-    nav.classList.add("navbar-shadow");
-  } else {
-    nav.classList.remove("navbar-shadow");
-  }
-};
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("components/header.html")
+    .then((response) => response.text())
+    .then((html) => {
+      document.getElementById("luxeHeader").innerHTML = html;
+      attachScrollListener();
+      headerNavhover();
+      initializeHeader();
+    });
+});
+
+function attachScrollListener() {
+  let nav = document.getElementById("luxeHeader"); // Make sure this ID matches your header's ID
+  window.onscroll = function () {
+    if (document.documentElement.scrollTop > 50) {
+      nav.classList.add("navbar-shadow");
+      nav.classList.add("sticky-top");
+    } else {
+      nav.classList.remove("navbar-shadow");
+    }
+  };
+}
+
+function initializeHeader() {
+  // Initialize any other header-related scripts
+}
 
 //NavBar Add And Remove Active Classes
 
-document.addEventListener("DOMContentLoaded", function () {
+function headerNavhover() {
   const currentPage = window.location.pathname.toLowerCase();
   const navLinks = document.querySelectorAll(".nav-link");
   navLinks.forEach((link) => {
@@ -24,7 +42,18 @@ document.addEventListener("DOMContentLoaded", function () {
       link.classList.remove("active");
     }
   });
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("components/footer.html")
+    .then((response) => response.text())
+    .then((html) => {
+      document.getElementById("luxefooter").innerHTML = html;
+      initializeFooter();
+    });
 });
+
+function initializeFooter() {}
 
 // SearchBar
 fetch("src/json/product.json")
@@ -131,7 +160,7 @@ function SignUp() {
     $("#logtext2").html("Logout");
     alert("Sign Up Successfully");
     window.location.href = "cart.html";
-  
+
     // sessionStorage.clear();
   }
 }
@@ -141,7 +170,7 @@ $("#btnCheckout").click(function () {
     alert("Please Signup/Login to checkout");
     window.location.href = "signup.html";
   } else {
-    localStorage.removeItem('cart');
+    localStorage.removeItem("cart");
     alert("Your order has been processed.");
     window.location.href = "index.html";
   }
