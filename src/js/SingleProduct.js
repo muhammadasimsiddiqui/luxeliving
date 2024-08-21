@@ -97,7 +97,6 @@ function viewProduct(productId) {
               <button 
               onclick="addToCart(${product.id})"
                 class="main-btn" 
-                data-bs-toggle="modal" 
                 data-bs-target="#">
                 Add to Cart&nbsp;&nbsp; <i class="fa-solid fa-basket-shopping"></i>
               </button>

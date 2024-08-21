@@ -107,3 +107,53 @@ function addtocartform() {
 
   return false;
 }
+
+if (sessionStorage.getItem("isLogin")) {
+  $("#logtext").html("Logout");
+  $("#logtext2").html("Logout");
+}
+
+function SignUp() {
+  username = $("#name").val();
+  mobile = $("#mobile").val();
+  email = $("#email").val();
+  password = $("#password").val();
+
+  if (username == "" || mobile == "" || email == "" || password == "") {
+    alert("Please fill all fields");
+  } else {
+    sessionStorage.setItem("name", username);
+    sessionStorage.setItem("mobile", mobile);
+    sessionStorage.setItem("email", email);
+    sessionStorage.setItem("password", password);
+    sessionStorage.setItem("isLogin", true);
+    $("#logtext").html("Logout");
+    $("#logtext2").html("Logout");
+    alert("Sign Up Successfully");
+    window.location.href = "cart.html";
+  
+    // sessionStorage.clear();
+  }
+}
+
+$("#btnCheckout").click(function () {
+  if (!sessionStorage.getItem("isLogin")) {
+    alert("Please Signup/Login to checkout");
+    window.location.href = "signup.html";
+  } else {
+    localStorage.removeItem('cart');
+    alert("Your order has been processed.");
+    window.location.href = "index.html";
+  }
+});
+
+$("#logtext").click(function () {
+  if ($("#logtext").html() == "Logout") {
+    $("#logtext").html("Sign Up");
+
+    window.location.reload();
+    sessionStorage.clear();
+  } else {
+    window.location.href = "signup.html";
+  }
+});

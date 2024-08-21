@@ -943,30 +943,35 @@
           >
             <div class="align-items-center">
               <h1>luxeliving</h1>
-              <form action="#" class="acc-form">
+              <form action="" class="acc-form mt-5">
                 <div class="input-group d-flex flex-column">
                   <label for="name">Name</label>
-                  <input type="text" id="name" />
+                  <input type="text" id="name" required />
+                </div>
+                <div class="input-group d-flex flex-column">
+                  <label for="mobile">Mobile</label>
+                  <input type="text" id="mobile" required />
                 </div>
                 <div class="input-group d-flex flex-column">
                   <label for="email">Email</label>
-                  <input type="email" id="email" />
+                  <input type="email" id="email" required />
                 </div>
                 <div class="input-group d-flex flex-column">
                   <label for="password">Password</label>
-                  <input type="password" id="password" />
-                </div>
-                <div class="input-group d-flex flex-column">
-                  <label for="password">Confirm Password</label>
-                  <input type="password" id="password" />
+                  <input type="password" id="password" required />
                 </div>
                 <div class="justify-content-center d-flex">
-                  <input type="submit" value="Sign Up" class="btn" />
+                  <input
+                    type="submit"
+                    value="Sign Up"
+                    class="btn"
+                    onclick="SignUp()"
+                  />
                 </div>
               </form>
               <p class="text-center">
                 Already have an account?
-                <a href="#" style="color: #0c5a49">Log in</a>
+                <a href="login.html" style="color: #0c5a49">Log in</a>
               </p>
               <div class="text-center">
                 <p class="" style="color: #777">OR</p>
@@ -1106,4 +1111,6 @@
 
   <!----- Custom JS ----->
   <script src="src/js/Script.js"></script>
+
+
 </html>
