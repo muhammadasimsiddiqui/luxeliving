@@ -100,6 +100,12 @@ function viewProduct(productId) {
                 data-bs-target="#">
                 Add to Cart&nbsp;&nbsp; <i class="fa-solid fa-basket-shopping"></i>
               </button>
+              <button 
+              onclick="addToWishlist(${product.id})"
+                class="main-btn" 
+                data-bs-target="#">
+                Wishlist&nbsp;&nbsp; <i class="fa-solid fa-basket-shopping"></i>
+              </button>
               &nbsp;&nbsp;&nbsp;&nbsp;
               <button 
                 class="main-btn" onclick="Export2Word('exportContent', '${
