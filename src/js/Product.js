@@ -1153,6 +1153,8 @@ const products = [
 
     variations: [{ size: "48 x 74 cm | 19 x 29 Inches", price: 774 }],
 
+    color: ["Plum"],
+
     description:
       "Celebrate the colours of love and elevate your space with our plum, 100% cotton standard sham.(Pillowcase pattern may vary from how it is shown in the picture)",
 
@@ -1183,6 +1185,8 @@ const products = [
     category: "Lighting",
 
     sku: "KIDF28AAA231122",
+
+    color: ["blue"],
 
     description:
       "The state of the shades is propelled by the lighting of the vintage time and is completely customizable so this is not simply slick, they're adaptable as well. Short on the room? The thin metal base can sneak by furniture as well. A minimalistic clean finish that will create an eye-catching feature on any table during studies",
@@ -3051,7 +3055,7 @@ const products = [
       "img/products/69-3.jpg",
     ],
 
-    brand: "HomeFactree",
+    brand: "homefactree",
 
     category: "Office&GamingChairs",
 
@@ -3172,7 +3176,7 @@ const products = [
 
     images: ["img/products/72-1.jpg"],
 
-    brand: "HomeFactree",
+    brand: "homefactree",
 
     category: "Office&GamingChairs",
 
@@ -4250,6 +4254,8 @@ const products = [
 
     variations: [{ size: "48 x 74 cm | 19 x 29 Inches", price: 6999 }],
 
+    color: ["pink"],
+
     description:
       "ntroducing the Luxe Velvet pillow: a decadent addition to any luxurious home. Made with the finest velvet, this cushion exudes sophistication and elegance. Add a touch of opulence to your décor and indulge in the comfort and style of the Luxe Velvet pillow.",
 
@@ -4621,6 +4627,214 @@ const products = [
           "Material: Solid Wood Base, Super High glass Marble look top, with deco finish on the legs.",
 
           "Size: Standard size 4 Feet Width & 8 Feet Length with a standard height of 30 inches",
+        ],
+      },
+    ],
+  },
+  {
+    id: 114,
+
+    name: "Clara X (Blue) Puff",
+
+    images: [
+      "img/products/114-1.webp",
+      "img/products/114-2.webp",
+      "img/products/114-3.webp",
+    ],
+
+    brand: "Habitt",
+
+    category: "Benches&Ottomans",
+
+    sku: "LIRG59AAC230102",
+
+    variations: [{ size: "16 H | 15 W (inches)", price: 3499 }],
+
+    description:
+      "Our Clara pouf adds a piece of functional décor and a striking artisanal accent to your home. This square pouf has durable upholstery and you can put it wherever you like and use it as an extra seat, a comfy footrest, or as a practical place to put books and other items you want close at hand.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: ["Dimensions: 16 H | 15 W (inches)", "Material: Premium Suede"],
+      },
+    ],
+  },
+  {
+    id: 115,
+
+    name: "Ochir Ottoman Bench",
+
+    images: ["img/products/115-1.jpeg"],
+
+    brand: "HomeFactree",
+
+    category: "Benches&Ottomans",
+
+    sku: "LIRG59AAC230102",
+
+    variations: [{ size: "", price: 27500 }],
+
+    description:
+      "Our Clara pouf adds a piece of functional décor and a striking artisanal accent to your home. This square pouf has durable upholstery and you can put it wherever you like and use it as an extra seat, a comfy footrest, or as a practical place to put books and other items you want close at hand.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Premium Quality Fabric",
+          "Fine Finishing",
+          "Guaranteed Foam",
+          "Plush Seating",
+          "Solid Treated Wooden Structure",
+          "Tailored to fit your interior",
+        ],
+      },
+    ],
+  },
+  {
+    id: 116,
+
+    name: "Panda Ottoman (Light Grey & Dark Orange)",
+
+    images: ["img/products/116-1.webp"],
+
+    brand: "Interwood",
+
+    category: "Benches&Ottomans",
+
+    sku: "FG050001649",
+
+    variations: [{ size: "W | 17 D | 16.5 H (Inches)", price: 19575 }],
+
+    description:
+      "Elevate your office space with our versatile and stylish Panda stool - a perfect fusion of modern design and comfort. Featuring a compact cylindrical design, this stool is the perfect way to add comfortable seating in spaces of any size. The exquisite contrast of dark orange and sophisticated light grey fabric upholstery not only adds a touch of elegance but also offers supreme comfort while sitting. Pair multiple Panda ottomans together to create dynamic seating arrangements in any workspace, for breakout meetings, brainstorming sessions or simply relaxing.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Size:17 W | 17 D | 16.5 H (Inches)",
+          "Upholstery: Fabric (Light Grey & Dark Orange)",
+          "Structure: Wooden",
+        ],
+      },
+    ],
+  },
+  {
+    id: 117,
+
+    name: "Smorty StorageCabinets ",
+
+    images: [
+      "img/products/117-1.webp",
+      "img/products/117-2.webp",
+      "img/products/117-3.webp",
+    ],
+
+    brand: "UrbanGalleria",
+
+    category: "Shelves&StorageCabinets",
+
+    sku: "FG050001649",
+
+    variations: [{ size: "", price: 70000 }],
+
+    description:
+      "Elevate your office space with our versatile and stylish Panda stool - a perfect fusion of modern design and comfort. Featuring a compact cylindrical design, this stool is the perfect way to add comfortable seating in spaces of any size. The exquisite contrast of dark orange and sophisticated light grey fabric upholstery not only adds a touch of elegance but also offers supreme comfort while sitting. Pair multiple Panda ottomans together to create dynamic seating arrangements in any workspace, for breakout meetings, brainstorming sessions or simply relaxing.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: ["Height: 36 inches", "Length: 42 inches", "Depth: 16 inches"],
+      },
+    ],
+  },
+  {
+    id: 118,
+
+    name: "Half Height Cabinet - FINN SERIES",
+
+    images: ["img/products/118-1.webp"],
+
+    brand: "Habitt",
+
+    category: "Shelves&StorageCabinets",
+
+    sku: "OFRH08AAB239217",
+
+    variations: [{ size: "W 32 x D 16 x H 43", price: 3499 }],
+
+    description:
+      "We want to express our confidence in our office furniture solution's ability to fulfill your requirements and exceed your expectations. We take pride in delivering high-quality furniture products and ensuring that our clients receive the best value.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: ["Dimensions: W 32 x D 16 x H 43", "Material: Premium Suede"],
+      },
+    ],
+  },
+  {
+    id: 119,
+
+    name: "Ariel Filing Cabinet Medium Height",
+
+    images: ["img/products/119-1.webp"],
+
+    brand: "Interwood",
+
+    category: "Shelves&StorageCabinets",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 49438 }],
+
+    description:
+      "Add additional storage to your office space with the elegantly designed Ariel medium height filing cabinet. Compact, free-standing and modern, this storage solution features two cabinets with an adjustable shelf in each and two open compartments to store all your office files, documents and other essentials. The sleek PVC handles feature locks for an additional layer of security for important documents. Exquisitely crafted from highly-durable Aland Pine MFC in fine brushed lines with embedded knots and sleek white MFC top and fronts, the Ariel cabinet exudes modern charm and chic style into any office interior. Pair this striking piece with the Ariel workstation or manager desk for the ideal office solution.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Size: 39 W | 17 L | 47 H (inches)",
+          "Top and Front: White MFC",
+          "Carcass: Aland Pine MFC",
+          "Handle: PVC (White and Grey)",
+          "Shelves: 2",
+          "Glides: Rubber",
+        ],
+      },
+    ],
+  },
+  {
+    id: 120,
+
+    name: "Budget Pro Filing Cabinet Base Height",
+
+    images: ["img/products/120-1.webp"],
+
+    brand: "Interwood",
+
+    category: "FilingCabinets",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 30060 }],
+
+    description:
+      "Add additional storage to your office space with the elegantly designed Ariel medium height filing cabinet. Compact, free-standing and modern, this storage solution features two cabinets with an adjustable shelf in each and two open compartments to store all your office files, documents and other essentials. The sleek PVC handles feature locks for an additional layer of security for important documents. Exquisitely crafted from highly-durable Aland Pine MFC in fine brushed lines with embedded knots and sleek white MFC top and fronts, the Ariel cabinet exudes modern charm and chic style into any office interior. Pair this striking piece with the Ariel workstation or manager desk for the ideal office solution.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Size: 39 W | 17 L | 47 H (inches)",
+          "Top and Front: White MFC",
+          "Carcass: Aland Pine MFC",
+          "Handle: PVC (White and Grey)",
+          "Shelves: 2",
+          "Glides: Rubber",
         ],
       },
     ],
