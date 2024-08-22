@@ -296,8 +296,6 @@ section {
   z-index: 1;
 }
 
-
-
 .section-title p {
   font-family: var(--primary-font);
   font-size: 2.5rem;
@@ -517,9 +515,9 @@ header {
 }
 
 .btn-shop-now {
-  background-color: #f9bf29;
+  background-color: var(--secondary-color);
   color: var(--white);
-  border: 2px solid #f9bf29;
+  border: 2px solid var(--secondary-color);
   outline: none;
   text-align: center;
   transition: 0.3s all ease-in-out;
