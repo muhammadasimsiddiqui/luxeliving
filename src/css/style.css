@@ -287,32 +287,18 @@ section {
 .section-title h2::before {
   content: "";
   position: absolute;
-  bottom: -10px; /* Adjust the distance from the bottom of the text */
+  bottom: 0;
   left: 50%;
-  width: 60%;
-  height: 2px;
+  width: 40%;
+  height: 2.5px;
   background-color: var(--primary-color);
   transform: translateX(-50%);
   z-index: 1;
 }
 
-.section-title h2::after {
-  content: "";
-  background-image: url(../../img/Logo/logo-favicon.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  left: 50%;
-  top: 96%;
-  width: 30px;
-  height: 25px;
-  background-color: var(--white);
-  transform: translateX(-50%);
-  z-index: 2;
-}
+
 
 .section-title p {
-  padding-top: 5px;
   font-family: var(--primary-font);
   font-size: 2.5rem;
   font-style: italic;
