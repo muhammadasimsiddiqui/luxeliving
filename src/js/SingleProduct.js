@@ -114,7 +114,7 @@ function viewProduct(productId) {
         <div class="pt-5 mt-5 des">
  <div class="des-title d-flex justify-content-between align-items-center">
   <h4 class="px-2">Product Details</h4>
-  <button class="border-0 bg-transparent" onclick="Export2Word('exportContent', '${
+  <button title="Downlaod Product Details" class="border-0 bg-transparent" onclick="Export2Word('exportContent', '${
     product.name
   }');">  <i class="fa-solid fa-download fa-2x px-3"></i>
 </button>
@@ -162,56 +162,52 @@ function viewProduct(productId) {
   });
 }
 
-// Products Details Downloading Function Start
-
 function Export2Word(element, filename = "") {
-  var preHtml = `<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Export HTML To Doc</title></head><body>`;
-
+  var preHtml = `<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Export HTML To Doc</title><style>
+    img { width: 400px; height: auto; max-width: 100%; } /* Fixed width, maintain aspect ratio */
+    body { font-family: Arial, sans-serif; }
+  </style></head><body>`;
   var siteinformation = `
   <div> 
     <h2 class="text-center">LuxeLivings</h2>
     <p>URL:&nbsp;&nbsp; ${window.location.href}</p>
   </div>
   `;
-
   var postHtml = "</body></html>";
-
-  var html =
-    preHtml +
-    siteinformation +
-    document.getElementById(element).innerHTML +
-    postHtml;
-
-  var blob = new Blob(["\ufeff", html], {
-    type: "application/msword",
+  var html = preHtml + siteinformation + document.getElementById(element).innerHTML + postHtml;
+  var tempDiv = document.createElement("div");
+  tempDiv.innerHTML = html;
+  var images = tempDiv.querySelectorAll("img");
+  images.forEach(function (img) {
+    var canvas = document.createElement("canvas");
+    var ctx = canvas.getContext("2d");
+    var imgElement = new Image();
+    imgElement.src = img.src;
+    imgElement.onload = function () {
+      canvas.width = 400; 
+      canvas.height = (imgElement.height / imgElement.width) * 400; 
+      ctx.drawImage(imgElement, 0, 0, canvas.width, canvas.height);
+      var dataURL = canvas.toDataURL("image/png");
+      img.setAttribute("src", dataURL);
+      img.setAttribute("width", "400px");
+      img.setAttribute("height", canvas.height + "px");
+    };
   });
-
-  // Specify link url
-  var url =
-    "data:application/vnd.ms-word;charset=utf-8," + encodeURIComponent(html);
-
-  // Specify file name
-  filename = filename ? filename + ".doc" : "document.doc";
-
-  // Create download link element
-  var downloadLink = document.createElement("a");
-
-  document.body.appendChild(downloadLink);
-
-  if (navigator.msSaveOrOpenBlob) {
-    navigator.msSaveOrOpenBlob(blob, filename);
-  } else {
-    // Create a link to the file
-    downloadLink.href = url;
-
-    // Setting the file name
-    downloadLink.download = filename;
-
-    //triggering the function
-    downloadLink.click();
-  }
-
-  document.body.removeChild(downloadLink);
+  setTimeout(function () {
+    var finalHtml = preHtml + tempDiv.innerHTML + postHtml;
+    var blob = new Blob(["\ufeff", finalHtml], {
+      type: "application/msword"
+    });
+    var downloadLink = document.createElement("a");
+    document.body.appendChild(downloadLink);
+    if (navigator.msSaveOrOpenBlob) {
+      navigator.msSaveOrOpenBlob(blob, filename);
+    } else {
+      var url = URL.createObjectURL(blob);
+      downloadLink.href = url;
+      downloadLink.download = filename ? filename + ".doc" : "document.doc";
+      downloadLink.click();
+    }
+    document.body.removeChild(downloadLink);
+  }, 1000); 
 }
-
-// Products Details Downloading Function End
