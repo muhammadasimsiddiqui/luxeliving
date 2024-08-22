@@ -1,19 +1,23 @@
 function updateCartBadge() {
-  const cartBadge = document.getElementById("cart-badge");
-  let cartData = JSON.parse(localStorage.getItem("cart"));
-  cartBadge.innerHTML = cartData.length;
+  const cartBadges = document.querySelectorAll("[data-cart-badge='true']");
+  let cartData = JSON.parse(localStorage.getItem("cart")) || [];
+
+  cartBadges.forEach((badge) => {
+    badge.innerHTML = cartData.length;
+  });
+
   totalAmout();
 }
 
 function totalAmout() {
   let total = 0;
   let priceElements = document.querySelectorAll(".totalAmout");
-  
+
   priceElements.forEach((element) => {
     const value = parseFloat(element.value);
     total += value;
   });
-console.log(total);
+  console.log(total);
   let showTotal = document.getElementById("showTotal");
   let showTotal2 = document.getElementById("showTotal2");
   showTotal.textContent = `${total.toFixed(2)}`;

@@ -1,15 +1,15 @@
 // Header Scroll
-document.addEventListener("DOMContentLoaded", function () {
+function luxelivingHeader() {
   fetch("components/header.html")
     .then((response) => response.text())
     .then((html) => {
       document.getElementById("luxeHeader").innerHTML = html;
       attachScrollListener();
       headerNavhover();
-      initializeHeader();
+      updateCartBadge();
     });
-});
-
+}
+luxelivingHeader();
 function attachScrollListener() {
   let nav = document.getElementById("luxeHeader"); // Make sure this ID matches your header's ID
   window.onscroll = function () {
@@ -20,10 +20,6 @@ function attachScrollListener() {
       nav.classList.remove("navbar-shadow");
     }
   };
-}
-
-function initializeHeader() {
-  // Initialize any other header-related scripts
 }
 
 //NavBar Add And Remove Active Classes
