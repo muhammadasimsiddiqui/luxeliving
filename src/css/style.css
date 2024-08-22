@@ -515,7 +515,7 @@ header {
 }
 
 .btn-shop-now {
-  background-color: var(--secondary-color);
+  background-color: #f9bf29;
   color: var(--white);
   border: 2px solid var(--secondary-color);
   outline: none;
