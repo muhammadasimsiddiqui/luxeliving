@@ -1,4 +1,3 @@
-// Function to update the wishlist badge
 function updateWishlistBadge() {
   const wishlistBadges = document.querySelectorAll(
     "[data-wishlist-badge='true']"
@@ -11,7 +10,6 @@ function updateWishlistBadge() {
   });
 }
 
-// Function to add a product to the wishlist
 function addToWishlist(productId) {
   let wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
   const product = products.find((p) => p.id === productId);
@@ -26,9 +24,7 @@ function addToWishlist(productId) {
   if (!existingProduct) {
     wishlist.push({ ...product });
   } else {
-    console.log(
-      `Product with ID ${productId} is already in the wishlist`
-    );
+    console.log(`Product with ID ${productId} is already in the wishlist`);
   }
 
   localStorage.setItem("wishlist", JSON.stringify(wishlist));
@@ -36,7 +32,6 @@ function addToWishlist(productId) {
   updateWishlistBadge();
 }
 
-// Function to display the wishlist
 function displayWishlist() {
   const wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
   console.log("Wishlist Data on display:", wishlist);
@@ -47,7 +42,7 @@ function displayWishlist() {
     return;
   }
 
-  wishlistTable.innerHTML = ""; // Clear existing rows
+  wishlistTable.innerHTML = "";
 
   if (wishlist.length === 0) {
     wishlistTable.innerHTML = `<tr><td colspan="4">No items in the wishlist</td></tr>`;
@@ -77,7 +72,6 @@ function displayWishlist() {
   });
 }
 
-// Function to remove an item from the wishlist
 function removeFromWishlist(productId) {
   let wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
   wishlist = wishlist.filter((p) => p.id !== productId);

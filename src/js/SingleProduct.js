@@ -99,29 +99,27 @@ function viewProduct(productId) {
                 class="main-btn" 
                 data-bs-target="#">
                 Add to Cart&nbsp;&nbsp; <i class="fa-solid fa-basket-shopping"></i>
-              </button>
+              </button>              
+              &nbsp;&nbsp;&nbsp;&nbsp;
               <button 
               onclick="addToWishlist(${product.id})"
                 class="main-btn" 
                 data-bs-target="#">
-                Wishlist&nbsp;&nbsp; <i class="fa-solid fa-basket-shopping"></i>
+                Add to Wishlist&nbsp;&nbsp; <i class="fa-regular fa-heart"></i>
               </button>
               &nbsp;&nbsp;&nbsp;&nbsp;
-              <button 
-                class="main-btn" onclick="Export2Word('exportContent', '${
-                  product.name
-                }');">
-                Download Details
-                &nbsp;&nbsp; 
-                <i class="fa-solid fa-download"></i>
-              </button>
             </div>
           </div>
         </div>
         <div class="pt-5 mt-5 des">
-          <div class="des-title">
-            <h4 class="px-2">Product Details</h4>
-          </div>        
+ <div class="des-title d-flex justify-content-between align-items-center">
+  <h4 class="px-2">Product Details</h4>
+  <button class="border-0 bg-transparent" onclick="Export2Word('exportContent', '${
+    product.name
+  }');">  <i class="fa-solid fa-download fa-2x px-3"></i>
+</button>
+</div>
+
           <br><br>
           <h4>Description:</h4>
           <p>${product.description}</p>

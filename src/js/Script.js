@@ -6,6 +6,7 @@ function luxelivingHeader() {
       document.getElementById("luxeHeader").innerHTML = html;
       attachScrollListener();
       headerNavhover();
+      updateWishlistBadge();
       updateCartBadge();
     });
 }
