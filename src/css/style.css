@@ -571,7 +571,7 @@ header {
   padding: 12px 14px;
   font-size: 18px;
   border-radius: 50%;
-  background-color: antiquewhite;
+  background-color: var(--secondary-color);
   color: var(--primary-color);
 }
 
