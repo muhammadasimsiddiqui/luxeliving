@@ -40,6 +40,15 @@ function updateLoginText() {
   authTextElements.forEach((el) => {
     el.textContent = isLoggedIn ? "Logout" : "Sign Up";
   });
+  const loginButton = document.getElementById("loginButton");
+  const loginButtonMob = document.getElementById("loginButtonMob");
+  if (isLoggedIn) {
+    loginButton.classList.add("d-none");
+    loginButtonMob.classList.add("d-none");
+  } else {
+    loginButton.classList.remove("d-none");
+    loginButtonMob.classList.remove("d-none");
+  }
 }
 
 // Unified Authentication Handler (for login)
@@ -85,7 +94,7 @@ function signUp(event) {
   const usersArray = JSON.parse(localStorage.getItem("users")) || [];
 
   // Check if the email already exists
-  const existingUser = usersArray.find(user => user.email === email);
+  const existingUser = usersArray.find((user) => user.email === email);
   if (existingUser) {
     Swal.fire({
       icon: "error",
@@ -102,7 +111,7 @@ function signUp(event) {
     email: email,
     password: password,
   };
-  
+
   // Save new user to local storage
   usersArray.push(newUser);
   localStorage.setItem("users", JSON.stringify(usersArray));

@@ -767,18 +767,36 @@
               </button>
             </div>
             <!-- Signup Button -->
-            <button
-              class="btn-signup d-none d-lg-flex align-items-center justify-content-center"
-              
-              onclick="headerBtn()"
-            ><span id="authText">Sign Up</span></button>
-            <button
-              class="btn-signup mt-auto d-lg-none"
-              
-              onclick="headerBtn()"
+            <!-- Large Devices -->
+            <div
+              class="d-none d-lg-flex align-items-center justify-content-center"
             >
-            <span id="authText">Sign Up</span>
-            </button>
+              <button
+                class="btn-signup"
+                id="loginButton"
+                onclick="window.location.href='login.html';"
+              >
+                <span>Log In</span>
+              </button>
+              &nbsp; &nbsp; &nbsp;
+              <button class="btn-signup" onclick="headerBtn()">
+                <span id="authText">Sign Up</span>
+              </button>
+            </div>
+            <!-- Medium Devices -->
+            <div class="mt-auto d-lg-none d-flex">
+              <button
+                class="btn-signup"
+                id="loginButtonMob"
+                onclick="window.location.href='login.html';"
+              >
+                <span>Log In</span>
+              </button>
+              &nbsp;&nbsp;&nbsp;
+              <button class="btn-signup" onclick="headerBtn()">
+                <span id="authText">Sign Up</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
