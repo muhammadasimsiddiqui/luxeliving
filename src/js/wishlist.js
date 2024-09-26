@@ -23,8 +23,20 @@ function addToWishlist(productId) {
 
   if (!existingProduct) {
     wishlist.push({ ...product });
+    Swal.fire({
+      icon: "success",
+      title: "Added to Wishlist!",
+      text: "The product has been successfully added to your wishlist.",
+      confirmButtonText: "Continue Browsing",
+    });
   } else {
     console.log(`Product with ID ${productId} is already in the wishlist`);
+    Swal.fire({
+      icon: "info",
+      title: "Already in Wishlist",
+      text: "This product is already in your wishlist.",
+      confirmButtonText: "OK",
+    });
   }
 
   localStorage.setItem("wishlist", JSON.stringify(wishlist));

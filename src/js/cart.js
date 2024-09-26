@@ -23,7 +23,6 @@ function totalAmout() {
   showTotal.textContent = `${total.toFixed(2)}`;
   showTotal2.textContent = total.toLocaleString();
 }
-
 function addToCart(productId) {
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
   const product = products.find((p) => p.id === productId);
@@ -35,7 +34,12 @@ function addToCart(productId) {
   } else {
     cart.push({ ...product, quantity: 1 });
   }
-
+  Swal.fire({
+    title: "<p>Product Has Been Successfully Added to Cart.</p> ",
+    text: "",
+    icon: "success",
+    confirmButtonText: "Continue Shopping",
+  });
   localStorage.setItem("cart", JSON.stringify(cart));
   updateCartBadge();
   totalAmout();
