@@ -123,6 +123,7 @@ a:hover,
 button {
   text-decoration: none;
   outline: 0;
+  color: var(--dark);
 }
 
 ::-webkit-scrollbar {
