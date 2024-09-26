@@ -233,7 +233,17 @@ section {
   border: 1px solid var(--primary-color);
   transition: 0.3s all ease-in-out;
 }
-
+/* SweetAlert */
+.swal2-title{
+  font-size: 30px !important;
+}
+.swal2-html-container{
+  font-size: 18px !important;
+}
+.swal2-confirm{
+  background-color: var(--dark) !important;
+  font-size: 12px;
+}
 /* Whatsapp Button CSS Start */
 
 .whatsapp-icon {
