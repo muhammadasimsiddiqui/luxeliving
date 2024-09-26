@@ -47,13 +47,14 @@
             class="col-md-6 p-md-5 justify-content-center align-items-center acc-form-main-cont pt-5 pt-md-0"
           >
             <div class="align-items-center">
-              <h1>luxeliving</h1> 
-              <form class="acc-form" onsubmit="handleAuth();">>
+              <h1>luxeliving</h1>
+              <form class="acc-form" onsubmit="handleAuth(event);">
+                >
                 <div class="input-group d-flex flex-column">
                   <label for="email">Email</label>
                   <input
                     type="email"
-                    id="email"
+                    id="loginEmail"
                     placeholder="Enter your Email here"
                   />
                 </div>
@@ -61,7 +62,7 @@
                   <label for="password">Password</label>
                   <input
                     type="password"
-                    id="password"
+                    id="loginPassword"
                     placeholder="Enter your Password"
                   />
                 </div>
@@ -116,6 +117,7 @@
 
   <!----- Custom JS ----->
   <script src="src/js/Script.js"></script>
+  <script src="src/js/Login_Signup.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   <script src="src/js/cart.js"></script>

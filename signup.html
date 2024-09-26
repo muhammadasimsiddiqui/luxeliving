@@ -40,30 +40,25 @@
           >
             <div class="align-items-center">
               <h1>luxeliving</h1>
-              <form action="" class="acc-form mt-5">
+              <form onsubmit="signUp(event)" class="acc-form mt-5">
                 <div class="input-group d-flex flex-column">
                   <label for="name">Name</label>
-                  <input type="text" id="name" required />
+                  <input type="text" id="signupName" required />
                 </div>
                 <div class="input-group d-flex flex-column">
                   <label for="mobile">Mobile</label>
-                  <input type="text" id="mobile" required />
+                  <input type="text" id="signupPhone" required />
                 </div>
                 <div class="input-group d-flex flex-column">
                   <label for="email">Email</label>
-                  <input type="email" id="email" required />
+                  <input type="email" id="signupEmail" required />
                 </div>
                 <div class="input-group d-flex flex-column">
                   <label for="password">Password</label>
-                  <input type="password" id="password" required />
+                  <input type="password" id="signupPassword" required />
                 </div>
                 <div class="justify-content-center d-flex">
-                  <input
-                    type="submit"
-                    value="Sign Up"
-                    class="btn"
-                    onclick="SignUp()"
-                  />
+                  <input type="submit" value="Sign Up" class="btn" />
                 </div>
               </form>
               <p class="text-center">
@@ -117,6 +112,7 @@
 
   <!----- Custom JS ----->
   <script src="src/js/Script.js"></script>
+  <script src="src/js/Login_Signup.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   <script src="src/js/cart.js"></script>
