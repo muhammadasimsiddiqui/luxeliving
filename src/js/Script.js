@@ -90,6 +90,7 @@ function handleCheckout() {
       return; // Exit the function if cart is empty
     }
 
+    // Clear the cart
     localStorage.removeItem("cart");
     var modal = new bootstrap.Modal(document.getElementById("checkoutForm"));
     modal.show(); // Show the modal
@@ -104,6 +105,22 @@ function handleCheckout() {
           event.stopPropagation();
         } else {
           event.preventDefault(); // Prevent default submission
+
+          // Save form data to session storage
+          const formData = {
+            name: form.cFname.value,
+            phone: form.cFphone.value,
+            email: form.cFemail.value,
+            country: form.cFcountry.value,
+            city: form.cFcity.value,
+            area: form.cFarea.value,
+            street: form.cFstreet.value,
+            houseNo: form.cFhouseNo.value,
+            zip: form.cFzip.value,
+            comment: form.cFcomment.value,
+            paymentOption: form.cFpaymentOption.value,
+          };
+          sessionStorage.setItem("checkoutData", JSON.stringify(formData));
 
           // Show SweetAlert on successful submission
           Swal.fire({
