@@ -79,9 +79,21 @@ function handleCheckout() {
       window.location.href = "login.html"; // Redirect to login page
     });
   } else {
+    // Check if the cart is empty
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+    if (cart.length === 0) {
+      Swal.fire({
+        icon: "info",
+        title: "Your cart is empty",
+        text: "Please add products to your cart before proceeding.",
+      });
+      return; // Exit the function if cart is empty
+    }
+
     localStorage.removeItem("cart");
     var modal = new bootstrap.Modal(document.getElementById("checkoutForm"));
     modal.show(); // Show the modal
+
     (function () {
       "use strict";
       var form = document.getElementById("myForm");
@@ -97,7 +109,7 @@ function handleCheckout() {
           Swal.fire({
             icon: "success",
             title: "Thanks For Choosing Us",
-            text: "We Recieved Your order successfully!",
+            text: "We Received Your order successfully!",
           })
             .then(() => {
               // Optionally close the modal
