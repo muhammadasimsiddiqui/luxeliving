@@ -80,13 +80,41 @@ function handleCheckout() {
     });
   } else {
     localStorage.removeItem("cart");
-    Swal.fire({
-      icon: "success",
-      title: "Order Processed",
-      text: "Your order has been processed successfully!",
-    }).then(() => {
-      window.location.href = "index.html"; // Redirect to homepage
-    });
+    var modal = new bootstrap.Modal(document.getElementById("checkoutForm"));
+    modal.show(); // Show the modal
+    (function () {
+      "use strict";
+      var form = document.getElementById("myForm");
+
+      form.addEventListener("submit", function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault();
+          event.stopPropagation();
+        } else {
+          event.preventDefault(); // Prevent default submission
+
+          // Show SweetAlert on successful submission
+          Swal.fire({
+            icon: "success",
+            title: "Thanks For Choosing Us",
+            text: "We Recieved Your order successfully!",
+          })
+            .then(() => {
+              // Optionally close the modal
+              var modal = bootstrap.Modal.getInstance(
+                document.getElementById("checkoutForm")
+              );
+              modal.hide();
+            })
+            .then(() => {
+              setTimeout(() => {
+                window.location.href = "index.html";
+              }, 1000);
+            });
+        }
+        form.classList.add("was-validated");
+      });
+    })();
   }
 }
 

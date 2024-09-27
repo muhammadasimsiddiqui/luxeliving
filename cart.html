@@ -99,6 +99,172 @@
       </div>
     </div>
 
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="checkoutForm"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Fill Your Details
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form id="myForm" novalidate>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  required
+                  pattern="[A-Za-z\s]+"
+                />
+                <div class="invalid-feedback">
+                  Please enter a valid name (letters only).
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  required
+                  pattern="^\+?[0-9]{10,15}$"
+                />
+                <div class="invalid-feedback">
+                  Please enter a valid phone number (10-15 digits).
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" required />
+                <div class="invalid-feedback">
+                  Please enter a valid email address.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="country" class="form-label">Country</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="country"
+                  required
+                  pattern="[A-Za-z\s]+"
+                />
+                <div class="invalid-feedback">
+                  Please enter a valid country name (letters only).
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="city" class="form-label">City</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="city"
+                  required
+                  pattern="[A-Za-z\s]+"
+                />
+                <div class="invalid-feedback">
+                  Please enter a valid city name (letters only).
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="area" class="form-label">Area</label>
+                <input type="text" class="form-control" id="area" required />
+                <div class="invalid-feedback">
+                  Please enter a valid area name.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="street" class="form-label">Street</label>
+                <input type="text" class="form-control" id="street" required />
+                <div class="invalid-feedback">
+                  Please enter a valid street name.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="houseNo" class="form-label">House No</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="houseNo"
+                  required
+                  pattern="^[0-9a-zA-Z\s]+$"
+                />
+                <div class="invalid-feedback">
+                  Please enter a valid house number.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="zip" class="form-label">Zip Code</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="zip"
+                  required
+                  pattern="^\d{5}(-\d{4})?$"
+                />
+                <div class="invalid-feedback">
+                  Please enter a valid zip code (5 digits or 5-4 digits).
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="comment" class="form-label">Comment</label>
+                <textarea class="form-control" id="comment" rows="3"></textarea>
+              </div>
+              <fieldset class="mb-3">
+                <legend>Payment Option</legend>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="paymentOption"
+                    id="cashOnDelivery"
+                    value="cashOnDelivery"
+                    checked
+                  />
+                  <label class="form-check-label" for="cashOnDelivery"
+                    >Cash On Delivery</label
+                  >
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              data-bs-dismiss="modal"
+              class="btn btn-block btn-dark my-3 px-5 py-2 text-white btn-hover"
+              style="font-size: 16px !important"
+            >
+              Close
+            </button>
+            <button
+              type="submit"
+              form="myForm"
+              class="btn btn-block btn-dark my-3 px-5 py-2 text-white btn-hover"
+              style="font-size: 16px !important"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!------------ Start Footer  ------------>
     <footer id="luxefooter"></footer>
     <!------------ End Footer  ------------>
