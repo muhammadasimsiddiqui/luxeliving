@@ -4839,4 +4839,674 @@ const products = [
       },
     ],
   },
+  {
+    id: 121,
+
+    name: "Einfach Queen Platform Bed Frame",
+
+    images: [
+      "img/products/121-1.webp",
+      "img/products/121-2.webp",
+      "img/products/121-3.webp",
+      "img/products/121-4.webp",
+    ],
+
+    brand: "Interwood",
+
+    category: "BedFrames",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 68719 }],
+
+    description:
+      "Add additional storage to your office space with the elegantly designed Ariel medium height filing cabinet. Compact, free-standing and modern, this storage solution features two cabinets with an adjustable shelf in each and two open compartments to store all your office files, documents and other essentials. The sleek PVC handles feature locks for an additional layer of security for important documents. Exquisitely crafted from highly-durable Aland Pine MFC in fine brushed lines with embedded knots and sleek white MFC top and fronts, the Ariel cabinet exudes modern charm and chic style into any office interior. Pair this striking piece with the Ariel workstation or manager desk for the ideal office solution.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Size: 39 W | 17 L | 47 H (inches)",
+          "Top and Front: White MFC",
+          "Carcass: Aland Pine MFC",
+          "Handle: PVC (White and Grey)",
+          "Shelves: 2",
+          "Glides: Rubber",
+        ],
+      },
+    ],
+  },
+  {
+    id: 122,
+
+    name: "Homfa Queen Size 4 Storage Drawers Bed Frame",
+
+    images: [
+      "img/products/122-1.webp",
+      "img/products/122-2.jpeg",
+      "img/products/122-3.webp",
+      "img/products/122-4.webp",
+    ],
+
+    brand: "ObsessionOutlet",
+
+    category: "BedFrames",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 96357 }],
+
+    description:
+      "Add additional storage to your office space with the elegantly designed Ariel medium height filing cabinet. Compact, free-standing and modern, this storage solution features two cabinets with an adjustable shelf in each and two open compartments to store all your office files, documents and other essentials. The sleek PVC handles feature locks for an additional layer of security for important documents. Exquisitely crafted from highly-durable Aland Pine MFC in fine brushed lines with embedded knots and sleek white MFC top and fronts, the Ariel cabinet exudes modern charm and chic style into any office interior. Pair this striking piece with the Ariel workstation or manager desk for the ideal office solution.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Size: 39 W | 17 L | 47 H (inches)",
+          "Top and Front: White MFC",
+          "Carcass: Aland Pine MFC",
+          "Handle: PVC (White and Grey)",
+          "Shelves: 2",
+          "Glides: Rubber",
+        ],
+      },
+    ],
+  },
+  {
+    id: 123,
+
+    name: "Amolife Queen Size Upholstered Platform Bed Frame with 3 Storage Drawers ",
+
+    images: [
+      "img/products/123-1.webp",
+      "img/products/123-2.webp",
+      "img/products/123-3.webp",
+      "img/products/123-4.webp",
+    ],
+
+    brand: "luxelivinginteriors",
+
+    category: "BedFrames",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 87377 }],
+
+    description:
+      "Add additional storage to your office space with the elegantly designed Ariel medium height filing cabinet. Compact, free-standing and modern, this storage solution features two cabinets with an adjustable shelf in each and two open compartments to store all your office files, documents and other essentials. The sleek PVC handles feature locks for an additional layer of security for important documents. Exquisitely crafted from highly-durable Aland Pine MFC in fine brushed lines with embedded knots and sleek white MFC top and fronts, the Ariel cabinet exudes modern charm and chic style into any office interior. Pair this striking piece with the Ariel workstation or manager desk for the ideal office solution.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Size: 39 W | 17 L | 47 H (inches)",
+          "Top and Front: White MFC",
+          "Carcass: Aland Pine MFC",
+          "Handle: PVC (White and Grey)",
+          "Shelves: 2",
+          "Glides: Rubber",
+        ],
+      },
+    ],
+  },
+  {
+    id: 124,
+
+    name: "Twin Over Twin Metal Bunk Beds with 2 Side Ladders ",
+
+    images: [
+      "img/products/124-1.jpg",
+      "img/products/124-2.jpg",
+      "img/products/124-3.jpg",
+      "img/products/124-4.jpg",
+    ],
+
+    brand: "MalikFurniture",
+
+    category: "TwinsBeds",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 103419 }],
+
+    description:
+      "Add additional storage to your office space with the elegantly designed Ariel medium height filing cabinet. Compact, free-standing and modern, this storage solution features two cabinets with an adjustable shelf in each and two open compartments to store all your office files, documents and other essentials. The sleek PVC handles feature locks for an additional layer of security for important documents. Exquisitely crafted from highly-durable Aland Pine MFC in fine brushed lines with embedded knots and sleek white MFC top and fronts, the Ariel cabinet exudes modern charm and chic style into any office interior. Pair this striking piece with the Ariel workstation or manager desk for the ideal office solution.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Size: 39 W | 17 L | 47 H (inches)",
+          "Top and Front: White MFC",
+          "Carcass: Aland Pine MFC",
+          "Handle: PVC (White and Grey)",
+          "Shelves: 2",
+          "Glides: Rubber",
+        ],
+      },
+    ],
+  },
+  {
+    id: 125,
+
+    name: "Sturdy Metal Bunk Bed Frame with Guardrails and Ladder for Children, Teens, and Adults ",
+
+    images: [
+      "img/products/125-1.jpg",
+      "img/products/125-2.jpg",
+      "img/products/125-3.jpg",
+      "img/products/125-4.jpg",
+    ],
+
+    brand: "MalikFurniture",
+
+    category: "TwinsBeds",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 113219 }],
+
+    description:
+      "Add additional storage to your office space with the elegantly designed Ariel medium height filing cabinet. Compact, free-standing and modern, this storage solution features two cabinets with an adjustable shelf in each and two open compartments to store all your office files, documents and other essentials. The sleek PVC handles feature locks for an additional layer of security for important documents. Exquisitely crafted from highly-durable Aland Pine MFC in fine brushed lines with embedded knots and sleek white MFC top and fronts, the Ariel cabinet exudes modern charm and chic style into any office interior. Pair this striking piece with the Ariel workstation or manager desk for the ideal office solution.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Size: 39 W | 17 L | 47 H (inches)",
+          "Top and Front: White MFC",
+          "Carcass: Aland Pine MFC",
+          "Handle: PVC (White and Grey)",
+          "Shelves: 2",
+          "Glides: Rubber",
+        ],
+      },
+    ],
+  },
+  {
+    id: 126,
+
+    name: "Twin over Twin Bunk Bed ",
+
+    images: [
+      "img/products/126-1.webp",
+      "img/products/126-2.jpg",
+      "img/products/126-3.jpg",
+      "img/products/126-4.jpg",
+    ],
+
+    brand: "HomeFactree",
+
+    category: "TwinsBeds",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 99000 }],
+
+    description:
+      "Add additional storage to your office space with the elegantly designed Ariel medium height filing cabinet. Compact, free-standing and modern, this storage solution features two cabinets with an adjustable shelf in each and two open compartments to store all your office files, documents and other essentials. The sleek PVC handles feature locks for an additional layer of security for important documents. Exquisitely crafted from highly-durable Aland Pine MFC in fine brushed lines with embedded knots and sleek white MFC top and fronts, the Ariel cabinet exudes modern charm and chic style into any office interior. Pair this striking piece with the Ariel workstation or manager desk for the ideal office solution.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Size: 39 W | 17 L | 47 H (inches)",
+          "Top and Front: White MFC",
+          "Carcass: Aland Pine MFC",
+          "Handle: PVC (White and Grey)",
+          "Shelves: 2",
+          "Glides: Rubber",
+        ],
+      },
+    ],
+  },
+  {
+    id: 127,
+
+    name: "Solimo Water Resistant Polyester Mattress Protector, Single Bed Size (75x36 inch), Beetroot ",
+
+    images: [
+      "img/products/127-1.jpg",
+      "img/products/127-2.jpg",
+      "img/products/127-3.jpg",
+      "img/products/127-4.jpg",
+    ],
+
+    brand: "HomeFactree",
+
+    category: "MattressesProtectors",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 897 }],
+
+    description:
+      "Enhanced Protection: Ensure your mattress remains safe from water, stains, and harmful bacteria with this Solimo product.Durable Polyester Construction: Crafted from long-lasting polyester, providing reliable protection for your mattress.Designed for Comfort: Soft and breathable design for a comfortable and relaxing sleeping environment.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Brand:	Amazon Brand - Solimo",
+          "Colour:	Beetroot",
+          "Size:	75x36 inch",
+          "Fabric: Type	Polyester",
+          "Special Feature: Hypoallergenic, Washable, Breathable",
+        ],
+      },
+    ],
+  },
+  {
+    id: 128,
+
+    name: "Solimo Water Resistant Polyester Mattress Protector, Single Bed Size (75x36 inch), Beetroot ",
+
+    images: [
+      "img/products/128-1.jpg",
+      "img/products/128-2.jpg",
+      "img/products/128-3.jpg",
+    ],
+
+    brand: "HomeFactree",
+
+    category: "MattressesProtectors",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 997 }],
+
+    description:
+      "Enhanced Protection: Ensure your mattress remains safe from water, stains, and harmful bacteria with this Solimo product.Durable Polyester Construction: Crafted from long-lasting polyester, providing reliable protection for your mattress.Designed for Comfort: Soft and breathable design for a comfortable and relaxing sleeping environment.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Brand:	Amazon Brand - Solimo",
+          "Colour:	Beetroot",
+          "Size:	75x36 inch",
+          "Fabric: Type	Polyester",
+          "Special Feature: Hypoallergenic, Washable, Breathable",
+        ],
+      },
+    ],
+  },
+  {
+    id: 129,
+
+    name: "6 PCs Satin Pillows*2 Bed Cushion *2 & Floor Cushion *2 Set-Sea Green",
+
+    images: ["img/products/129-1.webp", "img/products/129-2.webp"],
+
+    brand: "UrbanGalleria",
+
+    category: "Pillows",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 5970 }],
+
+    description:
+      "Enhanced Protection: Ensure your mattress remains safe from water, stains, and harmful bacteria with this Solimo product.Durable Polyester Construction: Crafted from long-lasting polyester, providing reliable protection for your mattress.Designed for Comfort: Soft and breathable design for a comfortable and relaxing sleeping environment.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Brand:	Amazon Brand - Solimo",
+          "Colour:	Beetroot",
+          "Size:	75x36 inch",
+          "Fabric: Type	Polyester",
+          "Special Feature: Hypoallergenic, Washable, Breathable",
+        ],
+      },
+    ],
+  },
+  {
+    id: 130,
+
+    name: "2 PCs TC 300 Satin Stripe Filled Pillows",
+
+    images: ["img/products/130-1.webp", "img/products/130-2.webp"],
+
+    brand: "UrbanGalleria",
+
+    category: "Pillows",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 2999 }],
+
+    description:
+      "Enhanced Protection: Ensure your mattress remains safe from water, stains, and harmful bacteria with this Solimo product.Durable Polyester Construction: Crafted from long-lasting polyester, providing reliable protection for your mattress.Designed for Comfort: Soft and breathable design for a comfortable and relaxing sleeping environment.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Brand:	Amazon Brand - Solimo",
+          "Colour:	Beetroot",
+          "Size:	75x36 inch",
+          "Fabric: Type	Polyester",
+          "Special Feature: Hypoallergenic, Washable, Breathable",
+        ],
+      },
+    ],
+  },
+  {
+    id: 131,
+
+    name: "2 PCs TC 300 Satin Stripe Filled Pillows",
+
+    images: ["img/products/131-1.jpg"],
+
+    brand: "UrbanGalleria",
+
+    category: "DiamondSupremeFoam",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 7999 }],
+
+    description:
+      "Enhanced Protection: Ensure your mattress remains safe from water, stains, and harmful bacteria with this Solimo product.Durable Polyester Construction: Crafted from long-lasting polyester, providing reliable protection for your mattress.Designed for Comfort: Soft and breathable design for a comfortable and relaxing sleeping environment.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Brand:	Amazon Brand - Solimo",
+          "Colour:	Beetroot",
+          "Size:	75x36 inch",
+          "Fabric: Type	Polyester",
+          "Special Feature: Hypoallergenic, Washable, Breathable",
+        ],
+      },
+    ],
+  },
+  {
+    id: 132,
+
+    name: "Supreme Foam",
+
+    images: ["img/products/132-1.jpg", "img/products/132-2.jpg"],
+
+    brand: "Habitt",
+
+    category: "DiamondSupremeFoam",
+
+    sku: "NU-3m-I3S",
+
+    variations: [{ size: "78*42", price: 1395000 }],
+
+    description:
+      "Offering perfect alignment and the ideal support, this best mattress in a box comes compressed. It will be smartly shipped for easy setup. It classifies as a great all-arounder mattress, performing exceptionally well in pressure relief and ease of movement. MoltyFoam Best Mattress in a box in Pakistan is shipped vacuum-packed; simply remove it from the box, carefully cut off the protective wrap, and watch as it expands. Sleep well, rejuvenate, and get the rest you deserve with MoltyFoam Best Mattress in a box! ",
+
+    details: [
+      {
+        heading: "About this item",
+        des: [
+          "Dream better with your dream mattress, a Masterpiece from Celeste! Luxuriously crafted with knitted fabric, insulation felt, and topped with Polyfil material to provide modern functionality. It is tufted with an HD foam layer that lets you quickly enter deep sleep and lessens uncomfortable pressure points while sleeping. It is also covered at the bottom with an Anti-Skid fabric which prevents unwanted movements.",
+        ],
+      },
+      {
+        heading: "Specification",
+        des: [
+          "SIZE:78*42",
+          "THCKNESS:6",
+          "Fabric treated with antimiorobial finish it limits dirt and does not allow groth of dust and fungi etc",
+          "the only high pressure in the country the steadiness make t long lasting and more durable",
+        ],
+      },
+    ],
+  },
+  {
+    id: 133,
+
+    name: "Deovilee Outdoor Chair - Blue and White",
+
+    images: ["img/products/133-1.avif"],
+
+    brand: "UrbanGalleria",
+
+    category: "OutdoorFurniture",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 9800 }],
+
+    description:
+      "Enhanced Protection: Ensure your mattress remains safe from water, stains, and harmful bacteria with this Solimo product.Durable Polyester Construction: Crafted from long-lasting polyester, providing reliable protection for your mattress.Designed for Comfort: Soft and breathable design for a comfortable and relaxing sleeping environment.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Brand:	Amazon Brand - Solimo",
+          "Colour:	Beetroot",
+          "Size:	75x36 inch",
+          "Fabric: Type	Polyester",
+          "Special Feature: Hypoallergenic, Washable, Breathable",
+        ],
+      },
+    ],
+  },
+  {
+    id: 134,
+
+    name: "outdoor decor the home depot",
+
+    images: ["img/products/134-1.jpg"],
+
+    brand: "UrbanGalleria",
+
+    category: "OutdoorDecor",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "39 W | 17 L | 47 H (inches)", price: 9800 }],
+
+    description:
+      "Enhanced Protection: Ensure your mattress remains safe from water, stains, and harmful bacteria with this Solimo product.Durable Polyester Construction: Crafted from long-lasting polyester, providing reliable protection for your mattress.Designed for Comfort: Soft and breathable design for a comfortable and relaxing sleeping environment.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Brand:	Amazon Brand - Solimo",
+          "Colour:	Beetroot",
+          "Size:	75x36 inch",
+          "Fabric: Type	Polyester",
+          "Special Feature: Hypoallergenic, Washable, Breathable",
+        ],
+      },
+    ],
+  },
+  {
+    id: 135,
+
+    name: "Outdoor Fire Pit Table With Linear 50 Kit",
+
+    images: ["img/products/135-1.jpeg", "img/products/135-2.jpeg"],
+
+    brand: "UrbanGalleria",
+
+    category: "FireTables&PatioHeaters",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "90 W | 18 L | 40 H (inches)", price: 10000 }],
+
+    description:
+      "Enhanced Protection: Ensure your mattress remains safe from water, stains, and harmful bacteria with this Solimo product.Durable Polyester Construction: Crafted from long-lasting polyester, providing reliable protection for your mattress.Designed for Comfort: Soft and breathable design for a comfortable and relaxing sleeping environment.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Rectangular Burner Fire Pit",
+
+          "Metal/Porcelain",
+
+          "L1800 x W900 x H400 mm",
+        ],
+      },
+    ],
+  },
+  {
+    id: 136,
+
+    name: "2 IN 1 COOLER / BBQ GRILL COMBO",
+
+    images: ["img/products/136-1.jpg", "img/products/136-2.jpg"],
+
+    brand: "UrbanGalleria",
+
+    category: "BBQs&Coolers",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "90 W | 18 L | 40 H (inches)", price: 10000 }],
+
+    description:
+      "Enhanced Protection: Ensure your mattress remains safe from water, stains, and harmful bacteria with this Solimo product.Durable Polyester Construction: Crafted from long-lasting polyester, providing reliable protection for your mattress.Designed for Comfort: Soft and breathable design for a comfortable and relaxing sleeping environment.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Rectangular Burner Fire Pit",
+
+          "Metal/Porcelain",
+
+          "L1800 x W900 x H400 mm",
+        ],
+      },
+    ],
+  },
+  {
+    id: 137,
+
+    name: "Poly Lumber 5 Piece Cantina Pub Set",
+
+    images: ["img/products/137-1.jpg", "img/products/137-2.jpg"],
+
+    brand: "UrbanGalleria",
+
+    category: "PolyLumber",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "90 W | 18 L | 40 H (inches)", price: 10000 }],
+
+    description:
+      "Enhanced Protection: Ensure your mattress remains safe from water, stains, and harmful bacteria with this Solimo product.Durable Polyester Construction: Crafted from long-lasting polyester, providing reliable protection for your mattress.Designed for Comfort: Soft and breathable design for a comfortable and relaxing sleeping environment.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Rectangular Burner Fire Pit",
+
+          "Metal/Porcelain",
+
+          "L1800 x W900 x H400 mm",
+        ],
+      },
+    ],
+  },
+  {
+    id: 138,
+
+    name: "Nardi Outdoor 2 Piece ",
+
+    images: ["img/products/138-1.webp"],
+
+    brand: "UrbanGalleria",
+
+    category: "NardiOutdoor",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "90 W | 18 L | 40 H (inches)", price: 15000 }],
+
+    description:
+      "Enhanced Protection: Ensure your mattress remains safe from water, stains, and harmful bacteria with this Solimo product.Durable Polyester Construction: Crafted from long-lasting polyester, providing reliable protection for your mattress.Designed for Comfort: Soft and breathable design for a comfortable and relaxing sleeping environment.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Rectangular Burner Fire Pit",
+
+          "Metal/Porcelain",
+
+          "L1800 x W900 x H400 mm",
+        ],
+      },
+    ],
+  },
+  {
+    id: 139,
+
+    name: "ArtisanIndoor-Outdoor wall art panels ",
+
+    images: ["img/products/139-1.webp"],
+
+    brand: "UrbanGalleria",
+
+    category: "ArtisanIndoor-Outdoor",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "90 W | 18 L | 40 H (inches)", price: 5000 }],
+
+    description:
+      "Enhanced Protection: Ensure your mattress remains safe from water, stains, and harmful bacteria with this Solimo product.Durable Polyester Construction: Crafted from long-lasting polyester, providing reliable protection for your mattress.Designed for Comfort: Soft and breathable design for a comfortable and relaxing sleeping environment.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Rectangular Burner Fire Pit",
+
+          "Metal/Porcelain",
+
+          "L1800 x W900 x H400 mm",
+        ],
+      },
+    ],
+  },
+  {
+    id: 140,
+
+    name: "4 Tiered Bowls Water Fountain ",
+
+    images: ["img/products/140-1.jpeg"],
+
+    brand: "UrbanGalleria",
+
+    category: "ArtisanIndoor-Outdoor",
+
+    sku: "FG050001477",
+
+    variations: [{ size: "90 W | 18 L | 40 H (inches)", price: 9000 }],
+
+    description:
+      "Enhanced Protection: Ensure your mattress remains safe from water, stains, and harmful bacteria with this Solimo product.Durable Polyester Construction: Crafted from long-lasting polyester, providing reliable protection for your mattress.Designed for Comfort: Soft and breathable design for a comfortable and relaxing sleeping environment.",
+
+    details: [
+      {
+        heading: "Specification",
+        des: [
+          "Rectangular Burner Fire Pit",
+
+          "Metal/Porcelain",
+
+          "L1800 x W900 x H400 mm",
+        ],
+      },
+    ],
+  },
 ];
