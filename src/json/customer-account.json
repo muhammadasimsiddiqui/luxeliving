@@ -174,5 +174,21 @@
     },
     "gender": "Male",
     "age": 17
+  },
+  {
+    "id": 11,
+    "name": "Dummy",
+    "email": "user@dummy.com",
+    "phone_number": "+923243416388",
+    "password": "dummy",
+    "address": {
+      "street": "55",
+      "city": "Karachi",
+      "state": "North Nazimabad",
+      "zip_code": "75160",
+      "country": "Pakistan"
+    },
+    "gender": "Male",
+    "age": 28
   }
 ]
