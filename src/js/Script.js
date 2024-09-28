@@ -64,7 +64,6 @@ function loadFooter() {
     .then((response) => response.text())
     .then((html) => {
       document.getElementById("luxefooter").innerHTML = html;
-      initializeFooter();
     });
 }
 
